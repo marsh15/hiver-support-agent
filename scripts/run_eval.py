@@ -79,6 +79,17 @@ def main():
     y_e = preds.escalate.astype(bool).tolist()
     y_ep = preds.escalate_pred.astype(bool).tolist()
 
+    # leakage regression guard: a tweet's own thread must never be its own
+    # grounding (100% self-match made the first headline run a lie — see
+    # REPORT §6.1). Fail the run loudly instead of shipping a inflated number.
+    leaks = preds.apply(
+        lambda r: str(int(r.root_tweet_id)) in str(r.grounding_thread_ids)
+        and not r.grounding_thread_ids.startswith("[]"), axis=1)
+    if leaks.any():
+        raise SystemExit(
+            f"LEAKAGE GUARD: {int(leaks.sum())} golden tweets retrieved their own "
+            "thread as grounding — the self-thread holdout broke. Refusing to report.")
+
     im = M.intent_metrics(y_i, y_p)
     em = M.escalation_metrics(y_e, y_ep)
 

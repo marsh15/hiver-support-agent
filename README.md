@@ -53,7 +53,8 @@ python demo.py                         # interactive console; one-shot: python d
 
 ## Architecture
 
-![architecture](docs/architecture.html)
+**[Interactive architecture diagram →](docs/architecture.html)** (open in a
+browser; pan/zoom/search built in), or the text pipeline below.
 
 ```
 customer tweet ──▶ classify (few-shot LLM + 8 retrieved labeled neighbors)

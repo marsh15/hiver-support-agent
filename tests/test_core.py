@@ -60,6 +60,23 @@ def test_find_root_walks_parents():
     assert root_of[2] == 1 and root_of[3] == 1  # memoized chain
 
 
+def test_index_exclusion_blocks_self_match():
+    """Offline leakage guard: retrieve() with exclude_ids must never return an
+    excluded id, even when it is the top match (similarity 1.0)."""
+    import sys
+
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+    from hiver_agent.retrieval import Index
+
+    idx = Index()
+    self_vec = idx.matrix[0]  # row 0's own vector is its own best match
+    hits = idx.retrieve(self_vec, 8, exclude_ids={idx.ids[0]})
+    assert idx.ids[0] not in [h["root_tweet_id"] for h in hits], \
+        "exclude_ids failed to hold out the self thread"
+    hits_all = idx.retrieve(self_vec, 8)
+    assert hits_all[0]["root_tweet_id"] == idx.ids[0]  # sanity: it IS the top match
+
+
 def main():
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:
