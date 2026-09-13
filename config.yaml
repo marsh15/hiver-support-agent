@@ -1,0 +1,29 @@
+# Models are swappable here — one place to change the whole pipeline.
+models:
+  bulk: gpt-4.1-mini        # corpus labeling, judge, taxonomy help
+  strong: gpt-4.1           # reply drafting
+  embedding: text-embedding-3-small
+
+temperature:
+  classify: 0.0
+  draft: 0.3
+  judge: 0.0
+
+retrieval:
+  k_neighbors: 8            # labeled neighbors shown to the classifier
+  k_draft_exemplars: 4      # historical (msg, reply) pairs shown to the drafter
+
+corpus:
+  label_pool: 6000          # corpus rows labeled with the final taxonomy
+  induction_sample: 2000    # sample size for taxonomy induction
+
+golden:
+  size: 200
+  min_per_intent: 8
+
+judge:
+  human_validation_sample: 50
+
+bootstrap:
+  n_resamples: 2000
+  seed: 42
