@@ -12207,3 +12207,18 @@
 {"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
 {"model": "gpt-4.1", "prompt_tokens": 564, "completion_tokens": 82, "cached": false}
 {"model": "gpt-4.1-mini", "prompt_tokens": 189, "completion_tokens": 24, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 575, "completion_tokens": 26, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 553, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 165, "completion_tokens": 22, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 611, "completion_tokens": 28, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 575, "completion_tokens": 69, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 189, "completion_tokens": 27, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 627, "completion_tokens": 26, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 552, "completion_tokens": 57, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 180, "completion_tokens": 20, "cached": false}

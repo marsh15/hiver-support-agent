@@ -34,8 +34,8 @@ make eval report                        # all 4 systems over the 200-example gol
 Try it live:
 
 ```bash
-python demo.py "yall charged my account 8 times uhhh"
-python demo.py "songs keep skipping on my daily mix, app is useless"
+source .venv/bin/activate              # or: .venv/bin/python demo.py
+python demo.py                         # interactive console; one-shot: python demo.py "tweet"
 ```
 
 ## Repo map
