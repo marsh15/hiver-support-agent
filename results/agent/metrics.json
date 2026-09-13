@@ -3,47 +3,47 @@
   "n": 200,
   "golden_verified": false,
   "intent": {
-    "accuracy": 0.815,
-    "macro_f1": 0.8342521973688827,
+    "accuracy": 0.8,
+    "macro_f1": 0.8169423945050106,
     "per_class_f1": {
-      "account_access": 0.875,
+      "account_access": 0.9032258064516129,
       "account_security": 0.9285714285714286,
-      "app_technical": 0.7796610169491526,
-      "billing_charges": 0.8421052631578947,
-      "content_availability": 0.9047619047619048,
+      "app_technical": 0.78125,
+      "billing_charges": 0.8205128205128205,
+      "content_availability": 0.8260869565217391,
       "device_integration": 0.9,
-      "feature_howto": 0.7428571428571429,
-      "other": 0.7727272727272727,
-      "praise_feedback": 0.8695652173913043,
+      "feature_howto": 0.7123287671232876,
+      "other": 0.8333333333333334,
+      "praise_feedback": 0.7368421052631579,
       "subscription_management": 0.7272727272727273
     },
     "accuracy_ci95": [
-      0.76,
-      0.87
+      0.745,
+      0.855
     ],
     "macro_f1_ci95": [
-      0.7765246748500626,
-      0.8811605246487124
+      0.7544564429336169,
+      0.8669436486545667
     ]
   },
   "escalation": {
-    "escalate_precision": 0.7777777777777778,
-    "escalate_recall": 0.4069767441860465,
-    "escalate_f1": 0.5343511450381679,
-    "auto_handle_safety": 0.6709677419354839,
+    "escalate_precision": 0.6888888888888889,
+    "escalate_recall": 0.36904761904761907,
+    "escalate_f1": 0.4806201550387597,
+    "auto_handle_safety": 0.6580645161290323,
     "auto_handle_rate": 0.775,
     "n_auto_handled": 155,
     "auto_handle_safety_ci95": [
-      0.5949367088607594,
-      0.7467572550905883
+      0.5822763135078897,
+      0.7329296066252587
     ]
   },
   "reply_constraint_violation_rate": 0.0,
   "judge": {
-    "mean_groundedness": 4.845,
-    "mean_actionability": 4.5,
-    "mean_tone": 4.87,
-    "mean_safety": 5.0,
-    "pass_rate": 0.94
+    "mean_groundedness": 4.775,
+    "mean_actionability": 4.435,
+    "mean_tone": 4.84,
+    "mean_safety": 4.99,
+    "pass_rate": 0.9
   }
 }

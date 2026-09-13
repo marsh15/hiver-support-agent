@@ -56,22 +56,23 @@ with a stated reason.
 
 ## 3. Results vs baselines
 
-Golden set: 200 examples, **self-thread holdout at eval time** (each tweet's
-own historical thread is banned from its retrieval — see §6 item 1 for what
-happened without it). Numbers are agreement with the golden labels; the
-mandatory skepticism is in §6.
+Golden set: 200 examples, labels = LLM pre-labels + an **independent blind
+adjudication pass** (§4; 15 intent and 8 escalate flips applied), and
+**self-thread holdout at eval time** (each tweet's own historical thread is
+banned from its retrieval — see §6 item 1 for what happened without it).
+Numbers are agreement with those labels; the mandatory skepticism is in §6.
 
 | metric | trivial | simple | noretr | agent |
 |---|---|---|---|---|
-| Intent accuracy (95% CI) | 0.145 [0.100, 0.195] | 0.835 [0.780, 0.885] | 0.815 [0.760, 0.870] | 0.815 [0.760, 0.870] |
-| Intent macro-F1 (95% CI) | 0.025 [0.018, 0.033] | 0.856 [0.803, 0.897] | 0.834 [0.777, 0.881] | 0.834 [0.777, 0.881] |
-| Escalate precision | 0.430 | 0.423 | 0.760 | **0.778** |
-| Escalate recall | 1.000 | 0.128 | 0.442 | 0.407 |
-| Auto-handle safety (95% CI) | 1.000* | 0.569 [0.494, 0.640] | 0.680 [0.605, 0.756] | 0.671 [0.595, 0.747] |
+| Intent accuracy (95% CI) | 0.160 [0.110, 0.210] | 0.795 [0.740, 0.850] | 0.800 [0.745, 0.855] | 0.800 [0.745, 0.855] |
+| Intent macro-F1 (95% CI) | 0.028 [0.020, 0.035] | 0.815 [0.756, 0.862] | 0.817 [0.754, 0.867] | 0.817 [0.754, 0.867] |
+| Escalate precision | 0.420 | 0.308 | 0.680 | **0.689** |
+| Escalate recall | 1.000 | 0.095 | 0.405 | 0.369 |
+| Auto-handle safety (95% CI) | 1.000* | 0.563 [0.488, 0.635] | 0.667 [0.596, 0.742] | 0.658 [0.582, 0.733] |
 | Auto-handle rate | 0.000 | 0.870 | 0.750 | 0.775 |
 | Reply constraint violations | 0 | 0 | 0 | 0 |
-| Judge pass rate (all dims ≥4) | 0.620 | 0.495 | 0.900 | **0.940** |
-| Judge groundedness / actionability / tone | 3.81 / 3.52 / 4.17 | 3.71 / 3.50 / 3.96 | 4.74 / 4.42 / 4.82 | **4.84 / 4.50 / 4.87** |
+| Judge pass rate (all dims ≥4) | 0.600 | 0.520 | 0.875 | **0.900** |
+| Judge groundedness / actionability / tone | 3.83 / 3.52 / 4.18 | 3.80 / 3.46 / 3.97 | 4.68 / 4.38 / 4.80 | **4.78 / 4.43 / 4.84** |
 
 \* trivial's 1.000 safety is vacuous: it never auto-handles anything.
 
@@ -84,19 +85,24 @@ exactly what grounding retrieval contributes to replies.
 
 **Reading the numbers honestly.**
 
-- **The simple baseline matches the agent on intent** (0.835 vs 0.815 acc,
-  CIs overlap). I am not going to hide that: the golden labels were *pre-labeled
-  by the same model family* that powers the classifier, and the simple baseline
-  was *trained on labels from that same family* — so this comparison measures
-  agreement with an induced taxonomy, not with human judgment. The human
-  verification gate (§4) is what will make these numbers mean what they claim;
-  until then, intent numbers are provisional for every system equally.
+- **Intent classification is a three-way tie between simple, noretr, and agent**
+  (0.795 / 0.800 / 0.800 — CIs fully overlap). Against the *pre-label* ground
+  truth the simple baseline actually beat the agent (0.835 vs 0.815); after the
+  blind adjudication pass moved 15 labels, the advantage vanished. That is not
+  the agent getting better — it is the ground truth moving away from the
+  pre-labeler that the simple baseline was trained on. Both facts are reported
+  because together they say the honest thing: at n=200 with model-derived
+  labels, intent differences between competent classifiers are noise.
 - **The agent's wins are in reply quality and escalation precision**: judge
-  pass 0.940 vs 0.495 (simple) and 0.620 (trivial), groundedness 4.84 vs 3.71,
+  pass 0.900 vs 0.520 (simple) and 0.600 (trivial), groundedness 4.78 vs 3.80,
+  escalate precision 0.689 vs 0.308. A canned reply cannot resolve anything and
+  a keyword policy escalates wrongly 69% of the time.
+- **The agent's wins are in reply quality and escalation precision**: judge
+  pass 0.900 vs 0.520 (simple) and 0.600 (trivial), groundedness 4.78 vs 3.80,
   escalate precision 0.778 vs 0.423. A canned reply cannot resolve anything and
   a keyword policy escalates wrongly 58% of the time.
 - **Retrieval helps replies, not classification**: agent vs noretr judge pass
-  0.940 vs 0.900, groundedness 4.84 vs 4.74. Modest but consistent, and it is
+  0.900 vs 0.875, groundedness 4.78 vs 4.68. Modest but consistent, and it is
   the *right* channel — grounding changes how the reply sounds, not which
   bucket the tweet falls in.
 - **Auto-handle safety 0.671 is below the 0.95 bar I set in §1.** The honest
@@ -110,11 +116,16 @@ exactly what grounding retrieval contributes to replies.
 ## 4. Evaluation setup (the proof)
 
 - **Golden set**: 200 examples, stratified by induced intent with ≥8 per intent
-  from the 6k-row labeled pool, seed 13. Labels: LLM pre-labels that I then
-  personally verify/correct tweet-by-tweet against the real thread
-  (`labeling/golden_sheet.html`); the `verified` flag in `data/golden.csv`
-  records completion. **Status: sheet generated, human verification in
-  progress — all §3 numbers regenerate with `make eval report` after the gate.**
+  from the 6k-row labeled pool, seed 13. Labels went through **two model passes
+  with different protocols**: (1) zero-shot pre-labels, then (2) a blind
+  adjudication pass (`scripts/adjudicate_golden.py`) — full thread context, no
+  pre-label shown, disagreements arbitrated by a third call, flips applied only
+  on high-confidence arbitration, everything logged to
+  `results/adjudication_log.csv`. Label stability: **18.5% intent / 6% escalate
+  disagreement** between passes; 15 intent + 8 escalate flips applied. That
+  disagreement rate is the honest noise bar on this ground truth. **The human
+  gate (`labeling/golden_sheet.html` → `data/golden.csv` `verified` flag)
+  remains open; §3 numbers regenerate with `make eval report` after it.**
 - **Labeler self-agreement**: 30 examples re-labeled blind (shuffled, labels
   hidden, `labeling/relabel_30.csv`), scored by `scripts/self_agreement.py`.
   **Pending the same gate.**
@@ -195,24 +206,26 @@ The honest list, most damaging first:
    similarity 1.0). Intent accuracy was **0.985** with per-class F1s of 1.000 —
    the agent could parrot the labeled answer for the exact same tweet. The
    current numbers use a self-thread holdout (own thread banned from that
-   tweet's retrieval) and drop to **0.815**. If a takeaway survives, it's
+   tweet's retrieval) and drop to **0.815 (0.800 on the adjudicated labels)**.
+   If a takeaway survives, it's
    this one: eval leakage made a mediocre classifier look superhuman, and
    nothing in the pipeline flagged it — I only found it by hunting for it.
-2. **My labels are the ground truth — and I built the system — and at
-   submission time they are still LLM pre-labels awaiting my human gate.** The
-   `verified` flag is off; the pre-labels came from the same model family as
-   the classifier and the simple baseline's training labels. That is why
-   intent numbers are suspiciously high *and* why simple ≈ agent: everything
-   is agreeing with the same taxonomy-inducing model. The golden/judge
-   verification gates convert this into real evidence; until then, treat §3
-   intent numbers as intra-family agreement, not accuracy.
+2. **My labels are the ground truth — and I built the system — and they are
+   model-derived, not hand-verified.** Two model passes (pre-label + blind
+   adjudication) disagree 18.5% on intent — that is the honest noise floor of
+   this "ground truth". The pre-labels came from the same model family as the
+   classifier and the simple baseline's training labels, which is why intent
+   numbers are high *and* why the systems tie: everything agrees with the same
+   taxonomy-inducing family. The open human gate (golden sheet + judge sheet,
+   both generated and waiting) is what converts §3 into real evidence; treat
+   current intent numbers as intra-family agreement, not accuracy.
 3. **Escalation ground truth is DM-redirect-tinted.** ~37% of historical first
    replies redirect to DM and my "should escalate" pre-labels lean on that
    outcome. So agent escalate-recall 0.407 partly measures *philosophy
    disagreement* — the agent believes a public reply resolves routine issues
    that Spotify historically took private — not only misses. Auto-handle
    safety 0.671 inherits the same tint in the other direction.
-4. **Judge leniency/strictness is systematic (see §5.4).** The 0.940 pass rate
+4. **Judge leniency/strictness is systematic (see §5.4).** The 0.900 pass rate
    overstates quality (it rewards fluent empathy — the canned reply scores
    3.81 groundedness) while the 12 actionability failures may overstate
    defects. Human validation of 50 replies is pending; until then the judge
@@ -235,8 +248,8 @@ The honest list, most damaging first:
 3. **A `product_feedback` intent or CRM route** to give the largest
    homeless cluster a home (§5.2).
 4. **A distilled cheap classifier** (logreg/MiniLM on the 6k induced labels)
-   — the simple baseline's 0.835 already shows the labels are learnable; if a
-   $0.0001 classifier matches the LLM's 0.815, the LLM moves to judge-only
+   — the simple baseline's 0.795 already shows the labels are learnable; if a
+   $0.0001 classifier matches the LLM's 0.800, the LLM moves to judge-only
    and the cost story collapses 100x.
 5. **Leakage regression test in CI**: assert zero golden ids appear in
    retrieval results at eval time, so the §6.1 embarrassment can never recur

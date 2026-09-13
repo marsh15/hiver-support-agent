@@ -1,0 +1,54 @@
+root_tweet_id,text,intent_old,intent_blind,intent_final,escalate_old,escalate_blind,escalate_final,arbiter_reason
+1500875,"In case you were wondering if my Spotify discover got better: this week features Everytime We Touch, Jacob Sartorius, and off-brand Kidz Bop",praise_feedback,feature_howto,feature_howto,False,False,False,Customer requests a feature to downvote tracks
+1991649,get on it por favor https://t.co/fZyQCJ7FeE,other,content_availability,other,False,False,False,User likely referring to missing content
+1996910,"I really love how @115888 actually responds to the artists who have music on their platform in a timely manner. Now, if only i knew where to send a pitch to be included on their playlists 🤔 https://t.co/c9bqrNsBGR",praise_feedback,content_availability,praise_feedback,False,False,False,User compliments response and asks a general question
+2001085,Fam @SpotifyCares can you guys refresh you “most listened to” chart??? Its been stuck for over a week now.,app_technical,feature_howto,app_technical,False,False,False,"User reports chart stuck, indicating app issue"
+2218810,So I get a @SpotifyCares update. Download it and still no iPhone X compatibility ffs. Wank,app_technical,device_integration,app_technical,False,False,False,Issue with app compatibility on iPhone X
+2616811,@SpotifyCares how hard can it be to support iPhone X after several updates?!,app_technical,device_integration,app_technical,False,False,False,Issue with app support on iPhone X after updates
+123459,Hi @SpotifyCares I’m trying to link my Spotify premium account with the ps4 service but it fails : ‘Spotify already linked ...’ - could you  help me please ?,device_integration,device_integration,device_integration,False,True,True,Customer needs account association checked after external support failed
+130886,accidentally? https://t.co/xTzbk9IKJ4,other,content_availability,content_availability,False,False,False,User concerned about missing content due to licensing
+1955898,"Spotify Premium plays on-demand, everywhere. Plus you can skip unlimited. Get moving. https://t.co/XeIFIMvgEx",praise_feedback,billing_charges,billing_charges,False,False,False,Customer asks about payment without credit card
+1308119,Spotify needs to update at 11 not 12. @115888 @SpotifyCares,other,feature_howto,feature_howto,False,False,False,User requests a feature update timing change
+1308336,"@2602 @17940 @32023 @71554 @171772 @77574 @19948 
+Here’s a playlist for you… Streaming Party of Lit Music by Curtis Pomeroy
+https://t.co/brMJvqJwHH",other,app_technical,app_technical,False,False,False,App not playing playlist as expected
+1676616,"I skipped address confirmation, how do I confirm my address for now? Can I have my premium account back? thx @SpotifyCares",subscription_management,account_access,subscription_management,True,True,True,User wants premium account restored after address confirmation issue
+1703329,Is there an outage? https://t.co/CnMwzV8QJw,other,app_technical,app_technical,False,False,False,"User asks about outage, indicating app or service issue"
+1961534,"Hey @115888 I don't mind ads one bit in your web player, but audio ads that play *during* the song? That's a bit concerning.",other,app_technical,app_technical,False,False,False,Audio ads playing during songs is an app issue
+1538897,when is your iPhone app going to be updated for the iPhone X,feature_howto,app_technical,feature_howto,False,False,False,User asks about app update for iPhone X compatibility
+2006295,Spotify said they'll try to make it happen😍😍😍👌❤ omg https://t.co/Dj6OgXypXG,praise_feedback,content_availability,content_availability,False,False,False,User excited about content availability update
+1592175,"my friend just signed up and we learned that usernames are now system generated only, she has a 25 random character username",feature_howto,account_access,feature_howto,True,True,True,"Question about username generation, not access issue"
+1557089,Yoo @115888 wtf is this?! Stranger things mode?! https://t.co/fVDYoV1Irl,other,feature_howto,feature_howto,True,False,False,"User asks about a feature, not a problem needing escalation"
+338319,ipad and iphone OS 11,other,device_integration,other,True,True,True,"Mentions iPad and iPhone OS, likely device-related issue"
+902383,@SpotifyCares since the latest iOS update I cannot control the music from my home screen or any Bluetooth device on my 7plus ideas?,app_technical,device_integration,app_technical,False,False,False,Issue with app control after iOS update
+1624174,"That's Selena Gomez and Marshmello, not Maroon 5 https://t.co/iwefPAeVW2",other,content_availability,content_availability,False,False,False,"User reports incorrect artist info, a catalog issue"
+2653003,ur ads are becoming more frequent,other,praise_feedback,other,False,False,False,"User complains about ads frequency, not praising"
+2451446,I dont get it... Spotify was so god at updating their numbers and list and from about 2 weeks ago theyre taking forever...,app_technical,praise_feedback,app_technical,False,False,False,"User complains about slow updates, indicating app performance issue"
+1470160,hey @spotifycares I sent an email and got no response yesterday. Are you guys running behind?,other,other,other,False,True,False,"Customer asks about response delay, no urgent issue shown"
+1470931,"is it really necessary to always have the Waze Maps banner pop up every time I open the app? Even after I press ""X""",feature_howto,app_technical,feature_howto,False,False,False,User asks about disabling a recurring banner feature
+2555560,since when was there a hangul and a translator on bts' songs in spotify? https://t.co/pRjx2CYx4e,feature_howto,content_availability,content_availability,False,False,False,Question about song content display
+2565897,- can you pls advise as to why I can't manage my artists' account. nobody ever gets back to me about verification! https://t.co/wquaB8gpfb,content_availability,other,content_availability,False,True,False,Issue about managing artist account relates to content availability
+686630,how can I remove my student status? Unable to update payment details because my student status isn't verified (not a student),subscription_management,billing_charges,subscription_management,True,True,True,Student status affects subscription and payment update
+1794140,"Hey, I can't play any @124708 songs today? I get an error ""This song is not available"" Have they been pulled from the UK?",content_availability,content_availability,content_availability,False,True,False,"User reports song unavailability, no security or urgent issue"
+2172946,"Dear @115888, Not everyone likes to see of alternative music in their Throwback Thursday playlist. This is the 4th week in a row. Love, Me",feature_howto,praise_feedback,feature_howto,False,False,False,User gives feedback on playlist content preferences
+1918984,Can you make your app available in South Africa? Wtf is taking ya'll so long!?,content_availability,content_availability,content_availability,True,False,False,"User asks about app availability, no urgent escalation needed"
+2032691,"@3493 @125633 this is crazy thank you!! Desire on Spotify &amp; Chill ✌️
+ https://t.co/2saHILgWYy",praise_feedback,other,praise_feedback,False,False,False,"User expresses thanks and excitement, no problem reported"
+2391990,Where is your iPhone X update? 🙄 https://t.co/P9MtCZeTvK,app_technical,feature_howto,app_technical,False,False,False,"User reports missing iPhone X update, indicating app issue"
+2393604,sorry maar ik ben mijn visakaart kwijt en liet die blokkeren. 🙈 https://t.co/8McXaSFX9A,billing_charges,billing_charges,billing_charges,False,True,False,"Lost card likely affects billing, no urgent threat indicated"
+2795551,hi can you reply to my DM please?,other,other,other,True,False,False,"No problem stated, just a request for DM reply"
+2643692,Are you fucking joking @spotifycares? You want us to make new accounts every time we move. 😂😂😂😂😂😂😂😂😂😂😂 https://t.co/0q71TG0YnT,account_access,feature_howto,feature_howto,False,False,False,User frustrated about account creation when moving
+5026,All of my songs disappeared from My Songs. They're still in the playlist but I'm not able to view them. https://t.co/lP9IHtod1M,content_availability,app_technical,app_technical,False,False,False,Songs not visible suggests app display issue
+2145983,"Dear @SpotifyCares, can we stop putting edited songs in the Daily Mixes? I'm expecting explicit content if listening to @13987, @10022, @62966 and more.",content_availability,feature_howto,content_availability,False,False,False,User requests specific song versions in mixes
+2139010,"trying to extend my student discount for another year but when I log into unidays, the pop-up to log in comes back. What should I do?",subscription_management,billing_charges,subscription_management,False,False,False,"Issue with student discount extension, related to subscription"
+2805320,i can't access my account even though i know i already input my username &amp; password,account_access,account_access,account_access,False,True,True,User can't access account and wants deactivation
+2807661,Really upset that you took out song previews. How am I supposed to know if im going to like the song or not? Your developers literally ruined your own app.,app_technical,feature_howto,app_technical,False,False,False,User reports app feature removal causing dissatisfaction
+639954,"Message indicating unavailability of the service with a spelling failure on the name.
+For half a second, I believed it was a phishing scam.
+
+But, it's actually the webpage you'll see if you're not living/travelling in one of the countries where @115888 is available 😞 https://t.co/WufVFSP1eg",content_availability,content_availability,content_availability,True,False,False,"User reports regional unavailability, no urgent issue"
+654600,How did Fleet foxes get on #Blues radio in @115888??,content_availability,account_access,content_availability,True,True,True,User questions music on a specific radio station
+2045319,Going thru @12630’s albums while working diligently today. That woman’s got one hell of a catalog.,praise_feedback,content_availability,content_availability,False,False,False,Customer wishes for album availability on Spotify
+189747,r u guys okay https://t.co/maSPXok9Ms,other,app_technical,app_technical,False,False,False,User implies a technical issue; support suggests troubleshooting steps
+1835513,not sure why I'm paying for a subscription so that I can save music to my phone if y'all are gonna make me redownload it,subscription_management,subscription_management,subscription_management,False,True,True,"Customer frustrated, issue recurring monthly"
+1966378,Thank you so much @SpotifyCares you guys go above and beyond!,praise_feedback,praise_feedback,praise_feedback,True,False,False,"No issue reported, just thanks"

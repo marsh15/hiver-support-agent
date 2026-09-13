@@ -3,47 +3,47 @@
   "n": 200,
   "golden_verified": false,
   "intent": {
-    "accuracy": 0.815,
-    "macro_f1": 0.8342521973688827,
+    "accuracy": 0.8,
+    "macro_f1": 0.8169423945050106,
     "per_class_f1": {
-      "account_access": 0.875,
+      "account_access": 0.9032258064516129,
       "account_security": 0.9285714285714286,
-      "app_technical": 0.7796610169491526,
-      "billing_charges": 0.8421052631578947,
-      "content_availability": 0.9047619047619048,
+      "app_technical": 0.78125,
+      "billing_charges": 0.8205128205128205,
+      "content_availability": 0.8260869565217391,
       "device_integration": 0.9,
-      "feature_howto": 0.7428571428571429,
-      "other": 0.7727272727272727,
-      "praise_feedback": 0.8695652173913043,
+      "feature_howto": 0.7123287671232876,
+      "other": 0.8333333333333334,
+      "praise_feedback": 0.7368421052631579,
       "subscription_management": 0.7272727272727273
     },
     "accuracy_ci95": [
-      0.76,
-      0.87
+      0.745,
+      0.855
     ],
     "macro_f1_ci95": [
-      0.7765246748500626,
-      0.8811605246487124
+      0.7544564429336169,
+      0.8669436486545667
     ]
   },
   "escalation": {
-    "escalate_precision": 0.76,
-    "escalate_recall": 0.4418604651162791,
-    "escalate_f1": 0.5588235294117647,
-    "auto_handle_safety": 0.68,
+    "escalate_precision": 0.68,
+    "escalate_recall": 0.40476190476190477,
+    "escalate_f1": 0.5074626865671642,
+    "auto_handle_safety": 0.6666666666666666,
     "auto_handle_rate": 0.75,
     "n_auto_handled": 150,
     "auto_handle_safety_ci95": [
-      0.6052589674824003,
-      0.7564144736842104
+      0.5955633942766295,
+      0.7419354838709677
     ]
   },
   "reply_constraint_violation_rate": 0.0,
   "judge": {
-    "mean_groundedness": 4.735,
-    "mean_actionability": 4.425,
-    "mean_tone": 4.82,
-    "mean_safety": 5.0,
-    "pass_rate": 0.9
+    "mean_groundedness": 4.685,
+    "mean_actionability": 4.385,
+    "mean_tone": 4.8,
+    "mean_safety": 4.995,
+    "pass_rate": 0.875
   }
 }

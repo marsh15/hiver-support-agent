@@ -1,0 +1,8 @@
+{
+  "n": 200,
+  "intent_disagreement_rate": 0.185,
+  "escalate_disagreement_rate": 0.06,
+  "intent_flips_applied": 15,
+  "escalate_flips_applied": 8,
+  "note": "blind second pass + arbiter; flips applied only on high-confidence arbitration; human gate still pending (verified=false)"
+}
