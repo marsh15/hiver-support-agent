@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"User asks how to stop credit card payment, related to subscription control.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 397, "completion_tokens": 32, "cached": false}}

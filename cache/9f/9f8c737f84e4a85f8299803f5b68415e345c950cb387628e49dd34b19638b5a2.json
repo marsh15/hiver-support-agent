@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"high\", \"reason\": \"Requesting refund for unexpected student account charge\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 410, "completion_tokens": 27, "cached": false}}

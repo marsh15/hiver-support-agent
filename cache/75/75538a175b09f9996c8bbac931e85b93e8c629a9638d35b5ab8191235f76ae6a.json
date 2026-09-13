@@ -1,0 +1,1 @@
+{"response": "{\"reply\": \"Hey! Sorry for the wait. We can check on this for you. Could you share your case number or a few more details so we can help out?\", \"grounding_thread_ids\": [1470160, 1498717]}", "usage": {"model": "gpt-4.1", "prompt_tokens": 382, "completion_tokens": 52, "cached": false}}

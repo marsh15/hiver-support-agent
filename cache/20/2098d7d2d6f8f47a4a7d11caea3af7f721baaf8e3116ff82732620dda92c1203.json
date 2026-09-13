@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Asking how to sign up for Premium family plan\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 421, "completion_tokens": 28, "cached": false}}

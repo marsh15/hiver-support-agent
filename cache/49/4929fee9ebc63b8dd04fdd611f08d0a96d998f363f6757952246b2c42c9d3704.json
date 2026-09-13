@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Web player stuck, play button not working, tried troubleshooting\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 427, "completion_tokens": 30, "cached": false}}

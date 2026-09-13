@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"unclear request, possibly metaphorical or off-topic\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 404, "completion_tokens": 27, "cached": false}}

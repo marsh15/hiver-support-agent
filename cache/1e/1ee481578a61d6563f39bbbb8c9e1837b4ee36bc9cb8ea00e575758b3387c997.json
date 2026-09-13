@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"medium\", \"reason\": \"User wants to cancel subscription but can't login via Facebook\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 419, "completion_tokens": 28, "cached": false}}

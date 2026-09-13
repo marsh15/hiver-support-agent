@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"User asks how to skip back to song start in Android Auto\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 420, "completion_tokens": 32, "cached": false}}

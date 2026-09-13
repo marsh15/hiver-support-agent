@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":5,\"actionability\":5,\"tone\":5,\"safety\":5,\"pass\":true,\"rationale\":\"Reply matches historical tone, asks for device info, offers clear guidance, and avoids unsafe info requests.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 590, "completion_tokens": 49, "cached": false}}

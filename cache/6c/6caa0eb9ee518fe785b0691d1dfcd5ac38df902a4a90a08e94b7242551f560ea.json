@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"User reports UI issue with app's bottom bar blocking home screen\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 413, "completion_tokens": 31, "cached": false}}

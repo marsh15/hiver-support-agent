@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"complaint about playlist quality, no clear intent category\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 399, "completion_tokens": 27, "cached": false}}

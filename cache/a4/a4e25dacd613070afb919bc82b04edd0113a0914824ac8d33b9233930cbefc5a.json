@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"User asks about deleting and managing playlists, a feature usage issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 407, "completion_tokens": 33, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Request for app update related to iPhone X display\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 412, "completion_tokens": 30, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Issues activating free trial and subscription due to postal code error.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 433, "completion_tokens": 30, "cached": false}}

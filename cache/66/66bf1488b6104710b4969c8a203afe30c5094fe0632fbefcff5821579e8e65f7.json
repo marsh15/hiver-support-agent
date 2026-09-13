@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"medium\", \"reason\": \"Waiting for sign-up bonus related to payment or promotion\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 412, "completion_tokens": 29, "cached": false}}

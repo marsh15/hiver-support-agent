@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"User asks about creating and using playlist direct links.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 417, "completion_tokens": 30, "cached": false}}

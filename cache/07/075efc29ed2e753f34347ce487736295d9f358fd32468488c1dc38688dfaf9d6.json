@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":4,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is friendly and safe, but lacks clear next steps or resolution guidance for the customer.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 224, "completion_tokens": 47, "cached": false}}

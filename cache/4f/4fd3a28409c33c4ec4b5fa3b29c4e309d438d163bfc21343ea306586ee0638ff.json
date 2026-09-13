@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": false, \"reason\": \"Reply directs user to DM, appropriate for routine communication.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 151, "completion_tokens": 23, "cached": false}}

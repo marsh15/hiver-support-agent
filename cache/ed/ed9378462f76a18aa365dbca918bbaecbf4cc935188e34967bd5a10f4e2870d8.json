@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_access\", \"confidence\": \"high\", \"reason\": \"User cannot login due to Facebook account deletion blocking access.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 441, "completion_tokens": 29, "cached": false}}

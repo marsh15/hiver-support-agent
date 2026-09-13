@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"praise_feedback\", \"confidence\": \"high\", \"reason\": \"Complimenting customer service positively\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 397, "completion_tokens": 25, "cached": false}}

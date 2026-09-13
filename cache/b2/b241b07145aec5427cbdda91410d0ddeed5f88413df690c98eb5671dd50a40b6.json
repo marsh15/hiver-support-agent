@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"User reports missing albums affecting playlist completeness.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 407, "completion_tokens": 27, "cached": false}}

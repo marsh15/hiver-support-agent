@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Describes Spotify Connect behavior, possibly seeking explanation or feature feedback.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 429, "completion_tokens": 33, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"welcoming playlist stopped updating after premium subscription\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 416, "completion_tokens": 27, "cached": false}}

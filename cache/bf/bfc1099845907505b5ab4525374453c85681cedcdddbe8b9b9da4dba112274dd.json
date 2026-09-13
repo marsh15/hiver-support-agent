@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"Complains about album cover issue, related to music content display\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 413, "completion_tokens": 31, "cached": false}}

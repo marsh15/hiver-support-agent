@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"User reports specific artist playback issue not experienced by others.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 410, "completion_tokens": 30, "cached": false}}

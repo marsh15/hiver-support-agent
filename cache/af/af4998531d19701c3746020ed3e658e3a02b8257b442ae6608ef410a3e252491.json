@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Tweet is only a link, no clear intent\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 394, "completion_tokens": 26, "cached": false}}

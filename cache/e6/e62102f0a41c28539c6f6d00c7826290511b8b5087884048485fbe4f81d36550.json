@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"Bluetooth connection issues with Spotify on iOS 11 and cars\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 435, "completion_tokens": 31, "cached": false}}

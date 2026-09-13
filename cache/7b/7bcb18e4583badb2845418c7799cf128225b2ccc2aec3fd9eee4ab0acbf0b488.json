@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_access\", \"confidence\": \"high\", \"reason\": \"Login fails, logs out immediately despite correct credentials\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 413, "completion_tokens": 27, "cached": false}}

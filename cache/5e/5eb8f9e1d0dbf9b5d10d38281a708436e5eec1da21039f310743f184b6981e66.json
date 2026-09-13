@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Requesting a feature about Apple Watch app availability\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 396, "completion_tokens": 29, "cached": false}}

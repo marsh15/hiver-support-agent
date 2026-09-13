@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_access\", \"confidence\": \"high\", \"reason\": \"User cannot log in via app, indicating access issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 398, "completion_tokens": 29, "cached": false}}

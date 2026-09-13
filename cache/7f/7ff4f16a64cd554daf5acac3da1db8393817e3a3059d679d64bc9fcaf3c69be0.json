@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"high\", \"reason\": \"Payment failing despite sufficient funds on card\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 405, "completion_tokens": 26, "cached": false}}

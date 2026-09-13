@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"high\", \"reason\": \"Request about press contact, not related to support intents\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 407, "completion_tokens": 27, "cached": false}}

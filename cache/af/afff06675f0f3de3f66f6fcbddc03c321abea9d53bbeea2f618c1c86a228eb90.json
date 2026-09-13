@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Request for a new feature similar to Shazam plugin\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 419, "completion_tokens": 30, "cached": false}}

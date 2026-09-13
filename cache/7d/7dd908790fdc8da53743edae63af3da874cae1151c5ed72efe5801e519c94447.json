@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"Issue syncing volume between devices\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 414, "completion_tokens": 24, "cached": false}}

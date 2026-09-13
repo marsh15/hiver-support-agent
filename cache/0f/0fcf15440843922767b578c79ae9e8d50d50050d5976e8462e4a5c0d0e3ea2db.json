@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Downloads disappearing indicates app or software malfunction.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 405, "completion_tokens": 27, "cached": false}}

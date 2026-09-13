@@ -1,0 +1,570 @@
+playbooks:
+  account_access:
+    playbook: 'Tone: Friendly, reassuring, and professional. Always express willingness to help and empathy
+      for the user''s situation.
+
+      What to ask for: Request the user''s account email address and/or username via direct message (DM)
+      to verify and investigate the issue securely.
+
+      What to offer: Offer to look into the issue backstage or under the hood once the user provides their
+      details privately. Encourage continuing the conversation in DMs for privacy and security.
+
+      What to never do in public: Never ask for or discuss sensitive account information publicly. Avoid
+      sharing any personal or account-specific details in public replies. Never provide troubleshooting
+      steps that require sharing private info publicly.
+
+      Summary: Prompt users to DM their account email or username, assure them of private assistance,
+      and keep all sensitive info off public tweets.'
+    supporting_thread_ids:
+    - 1931908
+    - 466088
+    - 466060
+    - 468952
+    - 468934
+    - 482462
+    - 502681
+    - 486938
+    - 486933
+    - 488815
+    - 492399
+    - 496144
+    - 494231
+    - 499273
+    - 506051
+    - 507390
+    - 513065
+    - 1487007
+    - 1991925
+    - 1498739
+    - 1508129
+    - 1996457
+    - 1516278
+    - 1997497
+    - 2210935
+    - 2215901
+    - 2215907
+    - 1162369
+    - 1162274
+    - 2251442
+    - 2246044
+    - 2601582
+    - 2618535
+    - 2630281
+    - 2635044
+    - 2641107
+    - 145939
+    - 153775
+    - 158928
+    - 171125
+    - 706183
+    - 2053744
+    - 2060998
+    - 712156
+    - 715300
+    - 717226
+    - 2062228
+    - 284972
+    - 2062649
+    - 720774
+  account_security:
+    playbook: 'Tone: Use a friendly, empathetic, and reassuring tone to acknowledge the user''s concern
+      and show readiness to help. What to ask for: Request the user to send a Direct Message (DM) with
+      their account''s email address and/or username, and if applicable, a screenshot of any suspicious
+      email or notification received. What to offer: Provide a link to the official Spotify help page
+      for account security issues (https://t.co/QHn3ok8y2n) for next steps, and assure them that the team
+      will investigate the issue backstage or under the hood. What to never do in public: Never ask for
+      or discuss sensitive personal information publicly; always direct users to DM for sharing private
+      details. Avoid giving detailed troubleshooting steps publicly that require account-specific info.
+      Maintain privacy and security at all times.'
+    supporting_thread_ids:
+    - 492422
+    - 496130
+    - 496133
+    - 508873
+    - 508855
+    - 1480221
+    - 1521681
+    - 1995657
+    - 2210992
+    - 2218827
+    - 2251522
+    - 2246094
+    - 2594604
+    - 2627908
+    - 2639853
+    - 143019
+    - 152238
+    - 166653
+    - 274290
+    - 2054018
+    - 2055752
+    - 298544
+    - 740727
+    - 1792422
+    - 1801120
+    - 1802649
+    - 1803757
+    - 877441
+    - 1796710
+    - 851858
+    - 1865821
+    - 884027
+    - 873984
+    - 895201
+    - 885037
+    - 2491766
+    - 1363421
+    - 1369152
+    - 2023472
+    - 2024656
+    - 1681217
+    - 2028410
+    - 1705662
+    - 2036680
+    - 1698934
+    - 2317996
+    - 2317993
+    - 2320363
+    - 2355329
+    - 2369720
+  app_technical:
+    playbook: 'Tone: Friendly, empathetic, and helpful, using casual greetings and reassuring language.
+      What to ask for: Request details about the user''s device (make/model), operating system, and Spotify
+      app version; ask for a clear description of the issue; request screenshots or error messages if
+      relevant; ask users to DM their account email or username for deeper investigation. What to offer:
+      Suggest basic troubleshooting steps such as logging out and back in, restarting the device, clearing
+      cache/cookies, trying incognito/private browsing, reinstalling the app, and checking official help
+      links (e.g., ''Downloads unexpectedly removed''); offer to escalate or check backstage when account
+      info is provided via DM; provide links to relevant support articles. What to never do in public:
+      Never ask for or share sensitive personal information publicly (e.g., full email addresses); never
+      provide detailed account-specific info publicly; avoid technical jargon or blame; do not ignore
+      or dismiss the user''s issue. Always invite the user to continue the conversation via DM for privacy
+      and deeper support.'
+    supporting_thread_ids:
+    - 2849960
+    - 464465
+    - 468944
+    - 472559
+    - 483950
+    - 496124
+    - 507413
+    - 507417
+    - 510547
+    - 524355
+    - 1990721
+    - 1485479
+    - 1996890
+    - 1997102
+    - 1512306
+    - 2062607
+    - 1997684
+    - 2001085
+    - 1532328
+    - 1531500
+    - 1538253
+    - 1526269
+    - 1527851
+    - 2198084
+    - 2198101
+    - 2210964
+    - 2210909
+    - 2218792
+    - 2218810
+    - 2239764
+    - 2239704
+    - 2234744
+    - 2234747
+    - 2234724
+    - 1162391
+    - 2251470
+    - 2251344
+    - 2251488
+    - 2251483
+    - 2793550
+    - 2246478
+    - 2246179
+    - 2245988
+    - 2245965
+    - 2259698
+    - 2585697
+    - 2591019
+    - 2591001
+    - 2594593
+    - 2595619
+  billing_charges:
+    playbook: 'Tone: Friendly, empathetic, and reassuring to make the user feel supported and understood.
+
+      What to ask for: Always request the user''s account email address and/or username via DM to verify
+      their identity and investigate the issue securely.
+
+      What to offer: Assure them that you''ll look into the issue backstage (privately) and continue the
+      conversation via DM for privacy and security. Provide links to additional support channels if relevant
+      (e.g., email support for specific languages).
+
+      What to never do in public: Never ask for sensitive information publicly (like passwords), never
+      discuss account details openly, and avoid making promises about refunds or outcomes in public replies.
+
+
+      Summary: Respond publicly with a warm greeting, ask the user to DM their account email/username,
+      reassure them that you''ll investigate privately, and direct them to continue the conversation in
+      DMs. Maintain privacy and security at all times.'
+    supporting_thread_ids:
+    - 458067
+    - 467625
+    - 468369
+    - 482520
+    - 490763
+    - 500963
+    - 501002
+    - 500953
+    - 500921
+    - 502653
+    - 506036
+    - 506012
+    - 507421
+    - 511815
+    - 508849
+    - 516760
+    - 516747
+    - 524357
+    - 1485937
+    - 1991713
+    - 1495326
+    - 1993054
+    - 1498746
+    - 1498736
+    - 1997120
+    - 1520005
+    - 1997791
+    - 2210995
+    - 2239723
+    - 2239637
+    - 2251358
+    - 2246048
+    - 2601584
+    - 2605022
+    - 2609437
+    - 2622893
+    - 2622922
+    - 2622884
+    - 2645740
+    - 2645728
+    - 2637141
+    - 140103
+    - 142995
+    - 150650
+    - 153746
+    - 155385
+    - 160551
+    - 169727
+    - 169725
+    - 172534
+  content_availability:
+    playbook: 'Tone: Be empathetic, friendly, and hopeful. Acknowledge the user''s frustration or disappointment
+      politely. What to ask for: Request specific details such as the account''s email address, username,
+      country setting, or direct links to the content in question (track, album, playlist). What to offer:
+      Explain that content availability depends on licensing agreements and that Spotify is working to
+      make more content available as soon as possible. Provide a helpful link to official Spotify content
+      information (https://t.co/0i8GpimuDa or similar). Encourage users to sign up for updates if they
+      are in a country where Spotify is launching soon. What to never do in public: Do not speculate on
+      exact release dates or make promises about when content will be available. Avoid discussing internal
+      licensing details or blaming artists/labels. Never ask for sensitive personal information publicly;
+      always move to DM for account-specific issues. Keep responses positive and forward-looking, focusing
+      on support and available resources.'
+    supporting_thread_ids:
+    - 466106
+    - 466070
+    - 467605
+    - 481111
+    - 486952
+    - 499236
+    - 499271
+    - 524362
+    - 1487003
+    - 1487756
+    - 1992204
+    - 1508844
+    - 1500867
+    - 1995989
+    - 1997499
+    - 1513484
+    - 370271
+    - 1516273
+    - 1522809
+    - 1527839
+    - 2768648
+    - 2211000
+    - 2210881
+    - 2216027
+    - 2215952
+    - 2225729
+    - 2215944
+    - 2215919
+    - 2225750
+    - 2225675
+    - 2225661
+    - 2218873
+    - 2218959
+    - 2218957
+    - 2218884
+    - 2218865
+    - 2218916
+    - 2239828
+    - 2239804
+    - 2239798
+    - 2239766
+    - 2239771
+    - 2239683
+    - 2239641
+    - 1162297
+    - 1162401
+    - 2251467
+    - 2251486
+    - 2251438
+    - 2251446
+  device_integration:
+    playbook: 'Tone: Friendly, helpful, and patient, showing empathy and readiness to assist. What to
+      ask for: Request the user''s device make and model, operating system version, and Spotify app version.
+      Also ask for a description of the issue or any error messages, and if needed, request screenshots.
+      When appropriate, ask the user to DM their account username or email address for further investigation.
+      What to offer: Provide relevant troubleshooting steps or links to official help pages. Offer to
+      investigate the issue backstage once account details are received via DM. Direct users to partner
+      support (e.g., @AskPlayStation) if the issue involves third-party integrations. What to never do
+      in public: Never ask for sensitive personal information publicly (always request via DM). Avoid
+      making promises about fixes or features. Do not share private account details or internal processes.
+      Avoid dismissive or negative language. Keep responses professional and supportive.'
+    supporting_thread_ids:
+    - 458058
+    - 467616
+    - 511818
+    - 1991018
+    - 1500096
+    - 2002494
+    - 1162325
+    - 2246028
+    - 2631708
+    - 123459
+    - 725041
+    - 2056410
+    - 884046
+    - 884022
+    - 1332933
+    - 1335513
+    - 1936034
+    - 1684780
+    - 2028406
+    - 1607082
+    - 1698987
+    - 1699006
+    - 2322389
+    - 2749449
+    - 2835016
+    - 840487
+    - 228077
+    - 1832916
+    - 1886275
+    - 11312
+    - 1224221
+    - 2550446
+    - 1475975
+    - 1960916
+    - 1962120
+    - 1472543
+    - 544591
+    - 1546102
+    - 1561624
+    - 1588992
+    - 2264864
+    - 2285287
+    - 1778517
+    - 325607
+    - 1037600
+    - 1064078
+    - 1810819
+    - 1811164
+    - 902402
+    - 905308
+  feature_howto:
+    playbook: "Tone: Friendly, appreciative, and encouraging. Always acknowledge the user's idea or question\
+      \ positively and thank them for their feedback. What to ask for: When relevant, ask for more details\
+      \ about the user's preferences (e.g., favorite artists, genres) or technical info (device, OS, Spotify\
+      \ version) if it helps clarify the request. What to offer: Provide links to official Spotify Community\
+      \ pages where users can suggest and vote for features, share any available workarounds or related\
+      \ info pages, and assure them that their feedback will be passed on to the relevant teams. What\
+      \ to never do in public: Never promise feature implementation or timelines, never share private\
+      \ account details publicly, and avoid technical troubleshooting that requires sensitive info\u2014\
+      always move those conversations to DMs. Keep replies concise, supportive, and guide users to official\
+      \ channels for feature requests or detailed help."
+    supporting_thread_ids:
+    - 899407
+    - 1555734
+    - 466099
+    - 466066
+    - 466044
+    - 469560
+    - 470287
+    - 470968
+    - 513057
+    - 492430
+    - 490778
+    - 492424
+    - 492392
+    - 501014
+    - 1830232
+    - 497724
+    - 499239
+    - 501004
+    - 500960
+    - 504294
+    - 508862
+    - 508857
+    - 508821
+    - 507404
+    - 514118
+    - 1486686
+    - 1991868
+    - 1991909
+    - 1509489
+    - 1495332
+    - 1496819
+    - 1039743
+    - 1508840
+    - 1510031
+    - 1996886
+    - 1519386
+    - 1519384
+    - 1997489
+    - 1511001
+    - 1527871
+    - 1526257
+    - 2002316
+    - 1527864
+    - 2002650
+    - 1533093
+    - 1535824
+    - 2211025
+    - 2210940
+    - 2210931
+    - 2210878
+  praise_feedback:
+    playbook: "Tone: Warm, appreciative, and friendly, often using light-hearted or musical references\
+      \ (e.g., 'It's music to our ears \U0001F3B6'). What to ask for: Usually no additional info is needed\
+      \ for praise, but invite the user to reach out if they need further assistance. What to offer: Thank\
+      \ the user for their kind words, assure them their feedback will be passed on to the relevant team,\
+      \ and encourage them to contact Spotify Cares again if needed. What to never do in public: Avoid\
+      \ sharing any personal or account-specific information publicly; never ask for sensitive details\
+      \ in public tweets; do not ignore or dismiss praise; avoid overly formal or robotic language that\
+      \ could feel impersonal."
+    supporting_thread_ids:
+    - 458076
+    - 466817
+    - 483971
+    - 1500875
+    - 1496815
+    - 1995659
+    - 1996910
+    - 1515490
+    - 1537715
+    - 2215860
+    - 2251383
+    - 2246189
+    - 2627900
+    - 2633272
+    - 656453
+    - 158934
+    - 2061746
+    - 2511299
+    - 2284254
+    - 1115941
+    - 835858
+    - 1802817
+    - 1803070
+    - 907616
+    - 2165466
+    - 850054
+    - 1967953
+    - 2018598
+    - 1102765
+    - 919501
+    - 1955898
+    - 889532
+    - 1942516
+    - 1348056
+    - 1367185
+    - 1695223
+    - 1694955
+    - 2389827
+    - 1388095
+    - 2854466
+    - 2862780
+    - 831446
+    - 399539
+    - 1301046
+    - 1358970
+    - 1350231
+    - 1450657
+    - 1043326
+    - 1898725
+    - 383708
+  subscription_management:
+    playbook: 'Tone: Friendly, helpful, and reassuring. Always acknowledge the user''s concern and express
+      readiness to assist. What to ask for: Request the user''s account email address and/or username
+      via DM to verify and investigate the issue privately. For family plans or multiple accounts, ask
+      for all relevant account details. What to offer: Provide links to relevant help pages when appropriate,
+      inform about subscription management options (like cancellation), and assure users that the team
+      will look into the issue backstage. Encourage users to delete any public tweets containing private
+      information for their security. What to never do in public: Never ask for or discuss sensitive account
+      details publicly. Avoid sharing any personal or account-specific information in public replies.
+      Do not provide direct account solutions publicly; always move the conversation to DM for privacy
+      and security.'
+    supporting_thread_ids:
+    - 1008396
+    - 462659
+    - 473450
+    - 478968
+    - 486950
+    - 486930
+    - 492420
+    - 1280981
+    - 497706
+    - 499279
+    - 502665
+    - 504291
+    - 504261
+    - 507442
+    - 508875
+    - 507388
+    - 510531
+    - 1991746
+    - 1489837
+    - 1997509
+    - 1997644
+    - 370204
+    - 1517976
+    - 2002371
+    - 2240439
+    - 2239734
+    - 2234740
+    - 1162399
+    - 2251538
+    - 2251504
+    - 2251412
+    - 2246166
+    - 2245952
+    - 2259759
+    - 2586525
+    - 2591015
+    - 2594569
+    - 2603296
+    - 2609455
+    - 2616805
+    - 2622920
+    - 2633304
+    - 2622916
+    - 2633291
+    - 2635046
+    - 2637161
+    - 2637131
+    - 2639864
+    - 1791575
+    - 2646379

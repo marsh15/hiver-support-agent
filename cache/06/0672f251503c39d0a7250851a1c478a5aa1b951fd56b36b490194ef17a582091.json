@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": false, \"reason\": \"Addresses security concern and requests DM for further investigation.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 192, "completion_tokens": 22, "cached": false}}

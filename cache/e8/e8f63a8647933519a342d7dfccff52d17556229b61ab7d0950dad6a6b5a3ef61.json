@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": false, \"reason\": \"Polite acknowledgment; no sensitive issue or unresolved problem indicated.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 174, "completion_tokens": 24, "cached": false}}

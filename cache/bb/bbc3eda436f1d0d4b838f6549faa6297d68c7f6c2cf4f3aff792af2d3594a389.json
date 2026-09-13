@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App shuffles limited songs despite artist having many\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 419, "completion_tokens": 28, "cached": false}}

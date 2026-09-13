@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"high\", \"reason\": \"Double charge issue for memberships clearly relates to billing\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 407, "completion_tokens": 28, "cached": false}}

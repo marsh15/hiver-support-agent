@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Tracks not playing after iOS update indicates app issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 402, "completion_tokens": 29, "cached": false}}

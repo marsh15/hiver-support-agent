@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": false, \"reason\": \"Routine inquiry; auto-reply requests more info to assist further.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 204, "completion_tokens": 25, "cached": false}}

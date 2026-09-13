@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"medium\", \"reason\": \"Inquiry about response time, not fitting defined intents\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 419, "completion_tokens": 26, "cached": false}}

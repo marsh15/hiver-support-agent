@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"device_integration\", \"confidence\": \"medium\", \"reason\": \"Unexpected device connection suggests integration or pairing issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 444, "completion_tokens": 27, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Asking about availability of gift cards, a feature-related query.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 406, "completion_tokens": 33, "cached": false}}

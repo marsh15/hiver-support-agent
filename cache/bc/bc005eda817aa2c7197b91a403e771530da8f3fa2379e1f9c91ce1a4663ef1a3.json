@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Question about premium plan pricing and eligibility\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 404, "completion_tokens": 25, "cached": false}}

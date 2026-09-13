@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"Discusses artist verification and Spotify for Artists access\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 436, "completion_tokens": 28, "cached": false}}

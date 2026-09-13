@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"Specific artist's songs not playing, possible catalog issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 412, "completion_tokens": 29, "cached": false}}

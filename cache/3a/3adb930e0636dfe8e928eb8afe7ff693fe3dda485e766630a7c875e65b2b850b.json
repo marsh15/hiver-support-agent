@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Suggesting feature improvements for label search and station variety\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 420, "completion_tokens": 30, "cached": false}}

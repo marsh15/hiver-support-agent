@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Issue with family account membership and music playback overlap\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 413, "completion_tokens": 27, "cached": false}}

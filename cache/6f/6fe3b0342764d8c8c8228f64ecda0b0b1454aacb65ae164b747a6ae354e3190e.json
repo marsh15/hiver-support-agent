@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"medium\", \"reason\": \"Issue with app showing duplicate albums likely a software bug\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 402, "completion_tokens": 29, "cached": false}}

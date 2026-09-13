@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App feature (reordering songs) not working on Android\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 408, "completion_tokens": 30, "cached": false}}

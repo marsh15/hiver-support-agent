@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Unclear request about past contest prize\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 420, "completion_tokens": 24, "cached": false}}

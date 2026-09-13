@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Hulu subscription via Spotify not working as expected\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 420, "completion_tokens": 27, "cached": false}}

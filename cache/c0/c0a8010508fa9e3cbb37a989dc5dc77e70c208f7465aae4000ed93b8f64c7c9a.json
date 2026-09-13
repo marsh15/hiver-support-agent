@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_access\", \"confidence\": \"high\", \"reason\": \"User can't log in and requests contact for account trouble.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 404, "completion_tokens": 29, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"medium\", \"reason\": \"Complains about promos, likely billing or discount issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 410, "completion_tokens": 29, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"User asks how to disable autoplay feature\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 401, "completion_tokens": 27, "cached": false}}

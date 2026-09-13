@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Control issues on lock screen and headphones indicate app malfunction\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 402, "completion_tokens": 29, "cached": false}}

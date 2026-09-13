@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Music not adding to playlists indicates app malfunction\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 400, "completion_tokens": 27, "cached": false}}

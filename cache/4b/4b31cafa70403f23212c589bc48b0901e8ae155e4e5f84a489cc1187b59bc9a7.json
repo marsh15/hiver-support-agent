@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Asking how gift cards apply to family plan\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 399, "completion_tokens": 29, "cached": false}}

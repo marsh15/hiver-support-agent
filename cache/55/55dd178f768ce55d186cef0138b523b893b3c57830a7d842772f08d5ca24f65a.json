@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Downloads deleted indicates app malfunction or bug\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 392, "completion_tokens": 26, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":2,\"actionability\":1,\"tone\":2,\"safety\":2,\"pass\":false,\"rationale\":\"Reply asks for PII publicly, offers no info on album playback or family plan, and tone is abrupt, not friendly or appreciative.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 406, "completion_tokens": 56, "cached": false}}

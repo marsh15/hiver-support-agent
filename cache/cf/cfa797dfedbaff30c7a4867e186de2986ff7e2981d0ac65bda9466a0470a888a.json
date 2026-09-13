@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"high\", \"reason\": \"Asking about discount pricing eligibility\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 403, "completion_tokens": 25, "cached": false}}

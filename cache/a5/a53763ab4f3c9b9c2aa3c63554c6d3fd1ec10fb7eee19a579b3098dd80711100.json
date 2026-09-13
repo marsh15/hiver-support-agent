@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Request for app optimization on specific device\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 401, "completion_tokens": 27, "cached": false}}

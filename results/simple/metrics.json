@@ -1,0 +1,49 @@
+{
+  "system": "simple",
+  "n": 200,
+  "golden_verified": false,
+  "intent": {
+    "accuracy": 0.835,
+    "macro_f1": 0.8557422203131392,
+    "per_class_f1": {
+      "account_access": 0.9090909090909091,
+      "account_security": 1.0,
+      "app_technical": 0.7796610169491526,
+      "billing_charges": 0.8571428571428571,
+      "content_availability": 0.7692307692307693,
+      "device_integration": 0.9090909090909091,
+      "feature_howto": 0.7368421052631579,
+      "other": 0.8363636363636363,
+      "praise_feedback": 0.96,
+      "subscription_management": 0.8
+    },
+    "accuracy_ci95": [
+      0.78,
+      0.885
+    ],
+    "macro_f1_ci95": [
+      0.8025256163766809,
+      0.8972220800911564
+    ]
+  },
+  "escalation": {
+    "escalate_precision": 0.4230769230769231,
+    "escalate_recall": 0.12790697674418605,
+    "escalate_f1": 0.19642857142857142,
+    "auto_handle_safety": 0.5689655172413793,
+    "auto_handle_rate": 0.87,
+    "n_auto_handled": 174,
+    "auto_handle_safety_ci95": [
+      0.49404210758377426,
+      0.6404494382022472
+    ]
+  },
+  "reply_constraint_violation_rate": 0.0,
+  "judge": {
+    "mean_groundedness": 3.915,
+    "mean_actionability": 3.59,
+    "mean_tone": 4.05,
+    "mean_safety": 4.955,
+    "pass_rate": 0.55
+  }
+}

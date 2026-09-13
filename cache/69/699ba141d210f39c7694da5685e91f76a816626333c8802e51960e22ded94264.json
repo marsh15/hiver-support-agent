@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Asking about usage permissions for a company event\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 409, "completion_tokens": 29, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": false, \"reason\": \"Routine password reset issue; auto-reply offers next steps for resolution.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 182, "completion_tokens": 26, "cached": false}}

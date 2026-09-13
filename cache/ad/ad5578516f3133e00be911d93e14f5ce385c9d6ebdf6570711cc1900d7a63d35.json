@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"User reports missing album in app search but found on web.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 455, "completion_tokens": 31, "cached": false}}

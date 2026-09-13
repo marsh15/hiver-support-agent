@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_security\", \"confidence\": \"high\", \"reason\": \"User reports stolen premium account indicating suspected compromise.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 396, "completion_tokens": 27, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Too vague, no specific issue mentioned\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 390, "completion_tokens": 24, "cached": false}}

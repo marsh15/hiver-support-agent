@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":4,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is empathetic and safe but lacks a direct link and specific sign-up call, reducing actionability and groundedness slightly.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 631, "completion_tokens": 54, "cached": false}}

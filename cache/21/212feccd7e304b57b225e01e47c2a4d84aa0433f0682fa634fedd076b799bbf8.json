@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"high\", \"reason\": \"No specific issue, just notifying about a DM sent\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 494, "completion_tokens": 27, "cached": false}}

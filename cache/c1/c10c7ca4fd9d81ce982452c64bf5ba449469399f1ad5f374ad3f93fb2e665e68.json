@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Complains Spotify app doesn't work properly on Windows 10 Mobile\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 411, "completion_tokens": 31, "cached": false}}

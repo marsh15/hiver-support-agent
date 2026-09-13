@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": false, \"reason\": \"Routine subscription upgrade inquiry, reply guides user to DM for privacy and assistance.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 231, "completion_tokens": 27, "cached": false}}

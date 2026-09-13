@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": false, \"reason\": \"Routine invitation issue; DM request can resolve it without escalation.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 183, "completion_tokens": 24, "cached": false}}

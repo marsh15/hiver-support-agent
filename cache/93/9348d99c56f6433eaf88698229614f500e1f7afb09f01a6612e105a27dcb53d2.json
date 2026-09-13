@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":3,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply asks for device info but lacks appreciation, feature request guidance, and official links; tone is friendly but could be more encouraging.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 385, "completion_tokens": 55, "cached": false}}

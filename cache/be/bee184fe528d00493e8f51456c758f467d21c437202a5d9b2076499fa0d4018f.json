@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Unclear question about qualification, no direct Spotify issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 405, "completion_tokens": 27, "cached": false}}

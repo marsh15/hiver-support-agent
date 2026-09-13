@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"medium\", \"reason\": \"Student discount and billing issue mentioned, upload problem unclear\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 430, "completion_tokens": 29, "cached": false}}

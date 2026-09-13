@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_security\", \"confidence\": \"high\", \"reason\": \"User suspects account compromise\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 398, "completion_tokens": 22, "cached": false}}

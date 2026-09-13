@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Offline devices tab and syncing music issue in app settings\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 410, "completion_tokens": 29, "cached": false}}

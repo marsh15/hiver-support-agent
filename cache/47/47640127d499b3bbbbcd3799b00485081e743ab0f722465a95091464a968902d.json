@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_security\", \"confidence\": \"high\", \"reason\": \"Account hacked, suspicious emails, credit card safety concern\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 427, "completion_tokens": 28, "cached": false}}

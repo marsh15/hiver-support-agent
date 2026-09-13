@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":3,\"actionability\":2,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is friendly and safe but lacks request for details and explanation about licensing; provides link but no clear next steps for user.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 432, "completion_tokens": 54, "cached": false}}

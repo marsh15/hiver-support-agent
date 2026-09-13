@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"device_integration\", \"confidence\": \"medium\", \"reason\": \"Issue with headphones affecting Spotify playback controls\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 410, "completion_tokens": 26, "cached": false}}

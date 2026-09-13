@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Songs cutting out indicates app or playback technical issues.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 421, "completion_tokens": 29, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": false, \"reason\": \"Request for clarification on a non-urgent, routine inquiry.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 176, "completion_tokens": 24, "cached": false}}

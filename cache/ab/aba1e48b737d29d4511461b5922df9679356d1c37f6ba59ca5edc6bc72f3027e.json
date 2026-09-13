@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Family plan verification issue after address change\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 411, "completion_tokens": 25, "cached": false}}

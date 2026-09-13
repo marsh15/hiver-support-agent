@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":4,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is empathetic and safe, links to info, but lacks request for user details and encouragement to DM for account-specific help.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 423, "completion_tokens": 55, "cached": false}}

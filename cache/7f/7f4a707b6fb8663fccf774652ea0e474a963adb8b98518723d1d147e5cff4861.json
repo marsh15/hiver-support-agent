@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"medium\", \"reason\": \"User reports UI size change, possibly app behavior or update\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 408, "completion_tokens": 30, "cached": false}}

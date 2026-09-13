@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":2,\"actionability\":3,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply asks for more info instead of expressing hope or linking to content info, less aligned with historical tone and approach.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 468, "completion_tokens": 52, "cached": false}}

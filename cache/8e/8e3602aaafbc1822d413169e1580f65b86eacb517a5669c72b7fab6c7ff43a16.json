@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"User asks how to change Discover Weekly picture\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 418, "completion_tokens": 28, "cached": false}}

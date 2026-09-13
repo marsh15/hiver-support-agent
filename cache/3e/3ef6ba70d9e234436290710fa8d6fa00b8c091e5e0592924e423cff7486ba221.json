@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"Issue occurs when using Spotify with car stereo volume control.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 410, "completion_tokens": 30, "cached": false}}

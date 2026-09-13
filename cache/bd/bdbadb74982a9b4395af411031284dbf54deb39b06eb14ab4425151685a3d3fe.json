@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":5,\"actionability\":4,\"tone\":5,\"safety\":5,\"pass\":true,\"rationale\":\"Reply aligns with historical tone, moves conversation to DM, advises deleting public personal info, and is safe and helpful.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 556, "completion_tokens": 52, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"Artist profile mislinked, related to music catalog issues\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 418, "completion_tokens": 29, "cached": false}}

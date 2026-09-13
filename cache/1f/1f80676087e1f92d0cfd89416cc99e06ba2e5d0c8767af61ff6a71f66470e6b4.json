@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Asking about eligibility for Hulu bundle with student premium family plan\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 406, "completion_tokens": 32, "cached": false}}

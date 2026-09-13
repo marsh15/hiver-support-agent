@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"User complains about app optimization on iPhone X\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 396, "completion_tokens": 28, "cached": false}}

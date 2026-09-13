@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": false, \"reason\": \"Requesting info and offering troubleshooting for app issue; no billing or security risk.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 217, "completion_tokens": 28, "cached": false}}

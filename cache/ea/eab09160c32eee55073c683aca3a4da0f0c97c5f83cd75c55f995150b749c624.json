@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"Requesting albums to be added to Spotify catalog\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 569, "completion_tokens": 28, "cached": false}}

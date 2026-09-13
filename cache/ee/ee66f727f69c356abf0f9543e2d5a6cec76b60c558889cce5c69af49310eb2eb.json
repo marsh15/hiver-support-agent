@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": true, \"reason\": \"Issue involves another service's billing; requires human review for proper guidance.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 173, "completion_tokens": 26, "cached": false}}

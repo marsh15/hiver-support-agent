@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Request to improve shuffle feature randomness\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 403, "completion_tokens": 26, "cached": false}}

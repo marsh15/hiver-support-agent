@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Requesting access to a specific Spotify feature (Time Capsule)\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 683, "completion_tokens": 32, "cached": false}}

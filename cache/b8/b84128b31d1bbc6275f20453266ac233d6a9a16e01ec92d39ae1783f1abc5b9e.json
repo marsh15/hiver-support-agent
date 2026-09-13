@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": true, \"reason\": \"Potential legal/PR risk due to mention of insurer harassment and multiple tags.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 190, "completion_tokens": 27, "cached": false}}

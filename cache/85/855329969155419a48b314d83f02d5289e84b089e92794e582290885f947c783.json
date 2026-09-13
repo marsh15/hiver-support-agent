@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App skips songs and activates Siri due to technical issues\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 426, "completion_tokens": 29, "cached": false}}

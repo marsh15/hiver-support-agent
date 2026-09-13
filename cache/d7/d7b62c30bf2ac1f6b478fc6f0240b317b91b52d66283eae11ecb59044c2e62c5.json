@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App deleting downloaded files repeatedly, indicating software issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 411, "completion_tokens": 29, "cached": false}}

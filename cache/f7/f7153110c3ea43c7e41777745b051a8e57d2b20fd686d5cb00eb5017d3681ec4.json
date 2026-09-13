@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"Song played before but now won't play, indicating content issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 409, "completion_tokens": 31, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"User wants to upgrade plan but faces Facebook-related issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 415, "completion_tokens": 29, "cached": false}}

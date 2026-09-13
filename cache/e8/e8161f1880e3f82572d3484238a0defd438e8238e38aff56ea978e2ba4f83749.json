@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Paid for premium but still in free mode indicates subscription issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 628, "completion_tokens": 30, "cached": false}}

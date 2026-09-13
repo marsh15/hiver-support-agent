@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Asking about update timing for iPhone X app\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 397, "completion_tokens": 30, "cached": false}}

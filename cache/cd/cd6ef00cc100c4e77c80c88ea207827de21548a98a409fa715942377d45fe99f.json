@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Request for new app feature (equalizer) with profit joke\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 429, "completion_tokens": 32, "cached": false}}

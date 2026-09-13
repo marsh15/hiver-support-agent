@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":3,\"actionability\":2,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is polite but generic, lacks specific guidance or resolution, and tone is somewhat neutral rather than fully friendly or empathetic.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 221, "completion_tokens": 54, "cached": false}}

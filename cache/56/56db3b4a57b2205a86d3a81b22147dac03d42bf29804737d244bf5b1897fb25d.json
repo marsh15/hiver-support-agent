@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"Managing artist account and verification issues relate to content availability.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 693, "completion_tokens": 30, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"reply\": \"Hey! Thanks for spotting this and letting us know. Could you DM us your device, operating system, and Spotify version? We'll make sure it gets to the right team. /L\", \"grounding_thread_ids\": [474461]}", "usage": {"model": "gpt-4.1", "prompt_tokens": 637, "completion_tokens": 52, "cached": false}}

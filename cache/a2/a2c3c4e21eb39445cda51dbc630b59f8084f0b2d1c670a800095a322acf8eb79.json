@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Requesting a new shuffle queue feature for linked songs\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 750, "completion_tokens": 30, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Unclear request, no specific issue mentioned\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 394, "completion_tokens": 25, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Issue with setting up student account relates to subscription lifecycle\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 392, "completion_tokens": 28, "cached": false}}

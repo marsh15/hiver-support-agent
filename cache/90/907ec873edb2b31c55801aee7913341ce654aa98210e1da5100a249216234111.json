@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Asking about canceling premium subscription timing\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 447, "completion_tokens": 26, "cached": false}}

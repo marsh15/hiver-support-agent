@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Unclear if related to Spotify service or concert event\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 413, "completion_tokens": 27, "cached": false}}

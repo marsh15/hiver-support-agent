@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Requesting a new streaming feature between platforms\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 411, "completion_tokens": 28, "cached": false}}

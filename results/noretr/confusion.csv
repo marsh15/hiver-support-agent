@@ -1,0 +1,11 @@
+,account_access,account_security,app_technical,billing_charges,content_availability,device_integration,feature_howto,other,praise_feedback,subscription_management
+account_access,16,0,0,0,0,0,0,0,0,0
+account_security,0,14,0,0,0,0,0,0,0,0
+app_technical,0,0,29,0,0,0,0,0,0,0
+billing_charges,0,0,0,19,0,0,0,0,0,0
+content_availability,0,0,0,0,21,0,0,0,0,0
+device_integration,0,0,0,0,0,10,0,0,0,0
+feature_howto,0,0,0,1,1,0,29,0,1,0
+other,0,0,0,0,0,0,0,26,0,0
+praise_feedback,0,0,0,0,0,0,0,0,11,0
+subscription_management,0,0,0,0,0,0,0,0,0,22

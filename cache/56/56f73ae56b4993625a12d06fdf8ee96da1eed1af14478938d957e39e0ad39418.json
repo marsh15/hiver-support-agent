@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Downloaded songs stuck repeatedly indicates app malfunction\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 405, "completion_tokens": 26, "cached": false}}

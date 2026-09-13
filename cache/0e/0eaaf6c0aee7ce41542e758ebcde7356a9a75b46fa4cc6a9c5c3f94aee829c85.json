@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"Issues connecting Spotify to Google Home device\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 620, "completion_tokens": 26, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"User asks how to go back a track on lock screen\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 408, "completion_tokens": 31, "cached": false}}

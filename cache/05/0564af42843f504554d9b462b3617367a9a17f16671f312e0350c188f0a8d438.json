@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Requesting a feature similar to another service's popular songs scrolling.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 418, "completion_tokens": 33, "cached": false}}

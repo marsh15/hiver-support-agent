@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"User questions a feature and criticizes UX design.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 409, "completion_tokens": 30, "cached": false}}

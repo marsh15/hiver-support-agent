@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_access\", \"confidence\": \"medium\", \"reason\": \"Sign up issue related to account access on iPhone app\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 400, "completion_tokens": 29, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App window resizing and fullscreen issues described clearly.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 455, "completion_tokens": 28, "cached": false}}

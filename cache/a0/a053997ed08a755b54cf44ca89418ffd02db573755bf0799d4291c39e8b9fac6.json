@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"medium\", \"reason\": \"Mentions ads frequency, no clear intent category fits\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 390, "completion_tokens": 27, "cached": false}}

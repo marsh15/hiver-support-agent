@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"medium\", \"reason\": \"Complaint about ads but unclear if subscription or technical issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 419, "completion_tokens": 27, "cached": false}}

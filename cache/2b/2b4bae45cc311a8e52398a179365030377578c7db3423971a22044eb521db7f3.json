@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"medium\", \"reason\": \"mentions payment issue and login problem, payment issue primary\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 403, "completion_tokens": 29, "cached": false}}

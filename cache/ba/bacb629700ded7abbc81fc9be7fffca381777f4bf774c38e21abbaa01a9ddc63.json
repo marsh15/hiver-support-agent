@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":3,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is friendly and safe but lacks request for user details and clear explanation about content availability; somewhat vague and less actionable.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 417, "completion_tokens": 53, "cached": false}}

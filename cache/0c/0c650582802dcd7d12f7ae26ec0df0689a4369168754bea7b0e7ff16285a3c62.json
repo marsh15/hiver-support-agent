@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"high\", \"reason\": \"Payment charged but app shows failure, clear billing issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 407, "completion_tokens": 30, "cached": false}}

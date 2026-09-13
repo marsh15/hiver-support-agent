@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":2,\"actionability\":2,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is friendly but lacks troubleshooting steps or request for details; does not move user toward resolution or invite DM for account info.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 432, "completion_tokens": 54, "cached": false}}

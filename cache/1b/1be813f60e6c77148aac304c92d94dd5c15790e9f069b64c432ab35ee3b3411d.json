@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":3,\"actionability\":4,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply offers help and asks for DM, but lacks warm, appreciative tone and doesn't acknowledge praise or provide playlist pitch info.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 389, "completion_tokens": 53, "cached": false}}

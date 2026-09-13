@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"medium\", \"reason\": \"Merging accounts relates to managing subscriptions and cancellations.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 416, "completion_tokens": 28, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"User wants Spotify to see their idea, likely a feature request.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 411, "completion_tokens": 33, "cached": false}}

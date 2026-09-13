@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Ambiguous emoji puzzle, no clear support intent\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 580, "completion_tokens": 26, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_security\", \"confidence\": \"high\", \"reason\": \"Account hijacked indicates suspected compromise or fraud.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 392, "completion_tokens": 27, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"User complains about app removal from Samsung Smart TVs\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 619, "completion_tokens": 28, "cached": false}}

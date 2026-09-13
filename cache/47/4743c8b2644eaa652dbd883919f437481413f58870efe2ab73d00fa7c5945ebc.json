@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Request for a new playlist feature linking songs in shuffle\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 436, "completion_tokens": 30, "cached": false}}

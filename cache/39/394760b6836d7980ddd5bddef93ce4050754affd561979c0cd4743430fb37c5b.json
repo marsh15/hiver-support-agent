@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Asking where to send a pitch to be included on playlists\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 714, "completion_tokens": 32, "cached": false}}

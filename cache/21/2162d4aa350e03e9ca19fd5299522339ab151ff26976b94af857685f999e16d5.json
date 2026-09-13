@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Playlists and saved music not syncing is an app issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 409, "completion_tokens": 31, "cached": false}}

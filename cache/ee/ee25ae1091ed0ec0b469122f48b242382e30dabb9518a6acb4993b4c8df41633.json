@@ -1,0 +1,1 @@
+{"response": "{\"reply\": \"Hey! We had a little hiccup backstage, but it should be working now. Let us know if you still need a hand.\", \"grounding_thread_ids\": [2920775, 2913764]}", "usage": {"model": "gpt-4.1", "prompt_tokens": 356, "completion_tokens": 47, "cached": false}}

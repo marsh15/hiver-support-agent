@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"Asking why a song was removed from an artist's page\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 401, "completion_tokens": 31, "cached": false}}

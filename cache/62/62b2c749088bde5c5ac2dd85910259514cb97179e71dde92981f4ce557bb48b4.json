@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Managing family plan members and issues with adding/removing users\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 415, "completion_tokens": 29, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":4,\"actionability\":4,\"tone\":4,\"safety\":5,\"pass\":true,\"rationale\":\"Reply asks for device details, is friendly and helpful, avoids sensitive info, and moves toward troubleshooting.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 414, "completion_tokens": 49, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Playback issues on app and web player for album songs\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 422, "completion_tokens": 29, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"User asks how to change country to avoid ads\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 426, "completion_tokens": 29, "cached": false}}

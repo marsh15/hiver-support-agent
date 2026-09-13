@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Offline downloaded songs not accessible, app feature malfunction\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 439, "completion_tokens": 28, "cached": false}}

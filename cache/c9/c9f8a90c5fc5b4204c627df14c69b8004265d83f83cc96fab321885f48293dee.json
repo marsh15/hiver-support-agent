@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"User can't access app content without VPN, likely region restriction issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 416, "completion_tokens": 32, "cached": false}}

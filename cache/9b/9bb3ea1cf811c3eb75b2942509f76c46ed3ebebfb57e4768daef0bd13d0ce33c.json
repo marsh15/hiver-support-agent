@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_access\", \"confidence\": \"high\", \"reason\": \"User can't log in and was logged out unexpectedly on multiple devices.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 433, "completion_tokens": 31, "cached": false}}

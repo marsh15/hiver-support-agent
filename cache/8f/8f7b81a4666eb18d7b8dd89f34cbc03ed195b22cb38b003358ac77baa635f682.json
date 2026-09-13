@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Album art not loading despite troubleshooting steps\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 430, "completion_tokens": 26, "cached": false}}

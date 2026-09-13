@@ -3,9 +3,10 @@ re-runs (and graders) are free; embeddings are NOT cached here (stored as
 fp16 .npy by build_index.py instead — JSON would be ~50x larger)."""
 import hashlib
 import json
+import threading
 import time
 
-from .config import ROOT, api_key
+from .config import CFG, ROOT, api_key
 
 CACHE = ROOT / "cache"
 COSTS = ROOT / "costs.jsonl"
@@ -15,6 +16,26 @@ PRICE = {  # $ per 1M tokens, for the running cost log only
     "gpt-4.1": (2.00, 8.00),
     "text-embedding-3-small": (0.02, 0.0),
 }
+
+_SEMS: dict[str, threading.Semaphore] = {}
+_SEMS_LOCK = threading.Lock()
+
+
+def _sem(model: str) -> threading.Semaphore:
+    """Cap concurrent calls per model so low-TPM orgs don't thundering-herd
+    their own rate limit (strong model drafts are token-heavy)."""
+    n = 2 if model == CFG["models"]["strong"] else 16
+    with _SEMS_LOCK:
+        if model not in _SEMS:
+            _SEMS[model] = threading.Semaphore(n)
+        return _SEMS[model]
+
+
+def _retry_after(e: Exception) -> float:
+    try:
+        return float(e.response.headers.get("retry-after", 0))  # type: ignore[union-attr]
+    except AttributeError:
+        return 0.0
 
 
 class LLM:
@@ -42,15 +63,19 @@ class LLM:
         kwargs = dict(model=self.model, temperature=self.temperature, messages=messages)
         if json_mode:
             kwargs["response_format"] = {"type": "json_object"}
-        for attempt in range(5):
+        last_exc = None
+        for attempt in range(8):
             try:
-                resp = self._openai().chat.completions.create(**kwargs)
+                with _sem(self.model):
+                    resp = self._openai().chat.completions.create(**kwargs)
                 break
             except Exception as e:  # rate limit / transient server errors
-                status = getattr(e, "status_code", None)
-                if status not in RETRYABLE and attempt < 4:
+                last_exc = e
+                if getattr(e, "status_code", None) not in RETRYABLE:
                     raise
-                time.sleep(2**attempt + 1)
+                time.sleep(max(_retry_after(e) + 1, min(2**attempt, 60)))
+        else:
+            raise last_exc
         text = resp.choices[0].message.content
         usage = {
             "model": self.model,
@@ -85,7 +110,8 @@ def embed(texts: list[str], model: str | None = None) -> "numpy.ndarray":
     out = []
     client = None
     for i in range(0, len(texts), 512):
-        for attempt in range(5):
+        last_exc = None
+        for attempt in range(6):
             try:
                 if client is None:
                     from openai import OpenAI
@@ -93,8 +119,13 @@ def embed(texts: list[str], model: str | None = None) -> "numpy.ndarray":
                     client = OpenAI(api_key=api_key())
                 resp = client.embeddings.create(model=model, input=texts[i : i + 512])
                 break
-            except Exception:
-                time.sleep(2**attempt + 1)
+            except Exception as e:
+                last_exc = e
+                if getattr(e, "status_code", None) not in RETRYABLE:
+                    raise
+                time.sleep(max(_retry_after(e) + 1, min(2**attempt, 60)))
+        else:
+            raise last_exc
         out.extend(d.embedding for d in resp.data)
         with COSTS.open("a") as f:
             f.write(

@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":4,\"actionability\":4,\"tone\":4,\"safety\":5,\"pass\":true,\"rationale\":\"Reply asks for DM with account info, offers help backstage, uses friendly tone, and avoids public PII requests.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 395, "completion_tokens": 52, "cached": false}}

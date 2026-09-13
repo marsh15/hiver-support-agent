@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":3,\"actionability\":4,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is friendly and actionable but doesn't follow historical pattern of directing to DM for account issues.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 403, "completion_tokens": 47, "cached": false}}

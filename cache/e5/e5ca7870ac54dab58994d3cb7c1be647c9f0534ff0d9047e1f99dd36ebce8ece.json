@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Issues adding family and applying code relate to subscription management.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 409, "completion_tokens": 29, "cached": false}}

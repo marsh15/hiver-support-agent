@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_security\", \"confidence\": \"low\", \"reason\": \"Mentions break-in but sarcastic tone about playlist cleanup\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 409, "completion_tokens": 29, "cached": false}}

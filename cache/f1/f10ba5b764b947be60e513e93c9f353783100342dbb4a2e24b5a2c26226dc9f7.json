@@ -1,0 +1,1 @@
+{"response": "{\"reply\": \"Hey! Thanks for sharing your thoughts with us. We appreciate your feedback and will make sure it gets to the right team. If you have any other ideas or suggestions, let us know!\", \"grounding_thread_ids\": [2472584, 1107510, 2312952]}", "usage": {"model": "gpt-4.1", "prompt_tokens": 551, "completion_tokens": 63, "cached": false}}

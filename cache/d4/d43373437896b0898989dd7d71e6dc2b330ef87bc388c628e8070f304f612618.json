@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Spotify UI becomes unresponsive after sharing via Facebook app\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 442, "completion_tokens": 29, "cached": false}}

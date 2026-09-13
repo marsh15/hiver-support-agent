@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"praise_feedback\", \"confidence\": \"medium\", \"reason\": \"Expresses relief and positive sentiment about service working again\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 412, "completion_tokens": 29, "cached": false}}

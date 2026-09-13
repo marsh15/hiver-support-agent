@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"Incorrect artist listing mentioned, related to music catalog issues\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 421, "completion_tokens": 29, "cached": false}}

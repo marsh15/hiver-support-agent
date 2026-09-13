@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Suggesting a new feature to mark loved songs\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 435, "completion_tokens": 29, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"reply\": \"Hey! Thanks for the feedback. We'll make sure they're passed on to the relevant folks /RC\", \"grounding_thread_ids\": [2172946]}", "usage": {"model": "gpt-4.1", "prompt_tokens": 634, "completion_tokens": 35, "cached": false}}

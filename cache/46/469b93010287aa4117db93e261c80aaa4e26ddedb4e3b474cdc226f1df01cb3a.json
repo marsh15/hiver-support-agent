@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Asking about promo duration and offer validity\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 428, "completion_tokens": 28, "cached": false}}

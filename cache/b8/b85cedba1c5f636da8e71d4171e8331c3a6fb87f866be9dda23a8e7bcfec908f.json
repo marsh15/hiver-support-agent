@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"medium\", \"reason\": \"Downloads not working properly suggests app or software issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 393, "completion_tokens": 29, "cached": false}}

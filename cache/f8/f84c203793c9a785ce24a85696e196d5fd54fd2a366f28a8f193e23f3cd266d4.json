@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":3,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Asks for device info but user already provided it; lacks troubleshooting steps and DM invitation; tone friendly and safe.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 452, "completion_tokens": 52, "cached": false}}

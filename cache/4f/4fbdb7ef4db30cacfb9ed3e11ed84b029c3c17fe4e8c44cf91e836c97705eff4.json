@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":4,\"actionability\":4,\"tone\":4,\"safety\":5,\"pass\":true,\"rationale\":\"Reply politely asks for clarification, aligns with past responses, and invites further info without unsafe requests.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 460, "completion_tokens": 48, "cached": false}}

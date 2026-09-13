@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":5,\"actionability\":4,\"tone\":5,\"safety\":5,\"pass\":true,\"rationale\":\"Reply is friendly, asks for DM, reassures investigation, and maintains privacy per playbook.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 409, "completion_tokens": 48, "cached": false}}

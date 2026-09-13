@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Ads interrupting music playback indicates app behavior issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 396, "completion_tokens": 28, "cached": false}}

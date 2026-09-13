@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": true, \"reason\": \"Issue with account linking requires specific troubleshooting beyond generic reply.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 193, "completion_tokens": 23, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Ambiguous tweet about cancellation and Twitter, no clear intent\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 415, "completion_tokens": 28, "cached": false}}

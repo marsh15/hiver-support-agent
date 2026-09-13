@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Premium stopped working after one day of purchase\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 415, "completion_tokens": 26, "cached": false}}

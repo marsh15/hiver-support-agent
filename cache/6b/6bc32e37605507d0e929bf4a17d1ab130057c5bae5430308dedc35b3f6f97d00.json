@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Complains about removed song preview feature causing app issues.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 661, "completion_tokens": 30, "cached": false}}

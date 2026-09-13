@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"General complaint about support, no specific issue mentioned\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 425, "completion_tokens": 26, "cached": false}}

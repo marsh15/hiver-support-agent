@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_security\", \"confidence\": \"high\", \"reason\": \"Email changed without user recognition indicates account compromise.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 615, "completion_tokens": 27, "cached": false}}

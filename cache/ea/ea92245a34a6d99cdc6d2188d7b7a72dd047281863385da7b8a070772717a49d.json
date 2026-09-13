@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Discusses user experience with nested playlists feature.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 452, "completion_tokens": 29, "cached": false}}

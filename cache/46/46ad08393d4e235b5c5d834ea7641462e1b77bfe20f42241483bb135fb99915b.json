@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":5,\"actionability\":4,\"tone\":5,\"safety\":5,\"pass\":true,\"rationale\":\"Reply aligns with historical responses, asks for country info, offers explanation and link, uses empathetic tone, and avoids unsafe info requests.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 631, "completion_tokens": 56, "cached": false}}

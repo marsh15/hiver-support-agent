@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"Requesting specific song version not available\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 400, "completion_tokens": 26, "cached": false}}

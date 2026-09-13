@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Conflicting trial period info between laptop and app\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 707, "completion_tokens": 27, "cached": false}}

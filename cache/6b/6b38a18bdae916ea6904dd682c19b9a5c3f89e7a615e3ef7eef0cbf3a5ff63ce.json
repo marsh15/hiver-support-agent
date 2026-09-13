@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"Songs by artists won't play despite reinstall and cache clear.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 429, "completion_tokens": 30, "cached": false}}

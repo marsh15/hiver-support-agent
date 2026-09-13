@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Requesting lyrics feature for a specific content\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 550, "completion_tokens": 28, "cached": false}}

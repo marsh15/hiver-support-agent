@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Issue with family premium invite code not recognized\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 435, "completion_tokens": 26, "cached": false}}

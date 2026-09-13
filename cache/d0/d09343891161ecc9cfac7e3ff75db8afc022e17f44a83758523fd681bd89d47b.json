@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Request for a new Spotify app on Nintendo Switch\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 415, "completion_tokens": 29, "cached": false}}

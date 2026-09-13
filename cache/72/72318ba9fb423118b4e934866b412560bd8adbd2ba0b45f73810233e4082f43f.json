@@ -1,0 +1,1 @@
+{"response": "{\"escalate\": true, \"reason\": \"Account security issue with unauthorized email change requires human intervention.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 208, "completion_tokens": 23, "cached": false}}

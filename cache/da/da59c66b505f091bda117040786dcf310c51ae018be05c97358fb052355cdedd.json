@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"User asks how to fix local files syncing across devices.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 443, "completion_tokens": 31, "cached": false}}

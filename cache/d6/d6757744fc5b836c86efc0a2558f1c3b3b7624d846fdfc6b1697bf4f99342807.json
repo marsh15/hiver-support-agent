@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"account_security\", \"confidence\": \"medium\", \"reason\": \"Weird email suggests possible security concern or phishing.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 398, "completion_tokens": 28, "cached": false}}

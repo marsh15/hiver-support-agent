@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Music and playlists not loading on app\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 430, "completion_tokens": 26, "cached": false}}

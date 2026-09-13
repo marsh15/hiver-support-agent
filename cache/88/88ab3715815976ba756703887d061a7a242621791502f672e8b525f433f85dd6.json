@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Bug in macOS app showing incorrect release date on album page.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 455, "completion_tokens": 32, "cached": false}}

@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Tweet is unclear and appears to be a joke or insult\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 402, "completion_tokens": 28, "cached": false}}

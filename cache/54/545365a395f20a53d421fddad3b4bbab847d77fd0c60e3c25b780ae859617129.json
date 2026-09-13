@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Issue with premium family code acceptance on son's account\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 402, "completion_tokens": 27, "cached": false}}

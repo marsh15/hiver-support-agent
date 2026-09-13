@@ -1,0 +1,1 @@
+{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"No clear issue or intent expressed in the tweet\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 394, "completion_tokens": 26, "cached": false}}
