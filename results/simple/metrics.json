@@ -40,10 +40,10 @@
   },
   "reply_constraint_violation_rate": 0.0,
   "judge": {
-    "mean_groundedness": 3.545,
-    "mean_actionability": 3.17,
-    "mean_tone": 3.805,
+    "mean_groundedness": 3.715,
+    "mean_actionability": 3.5,
+    "mean_tone": 3.955,
     "mean_safety": 4.955,
-    "pass_rate": 0.4
+    "pass_rate": 0.495
   }
 }

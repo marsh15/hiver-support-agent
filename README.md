@@ -24,9 +24,10 @@ make eval report                        # all 4 systems over the 200-example gol
 
 - The brand subsample (**27,914 threads**) is committed at
   `data/committed/spotify_subsample.csv.gz` — you never need Kaggle.
-- **Every LLM call is cached** in `cache/` (committed), so if you only want to
-  re-check the numbers, `make eval report` reruns offline and fast. A fresh,
-  uncached end-to-end run costs ≈ **$3–5** on `gpt-4.1-mini` + `gpt-4.1`.
+- The retrieval index over the labeled corpus is committed at `index/` — eval
+  needs no embedding spend. Every LLM call is disk-cached locally in `cache/`
+  (gitignored), so re-runs on this machine are free; a grader's fresh,
+  uncached eval costs ≈ **$3–5** on `gpt-4.1-mini` + `gpt-4.1`.
 - Full pipeline from scratch (taxonomy → labels → index → playbooks → golden →
   eval): `make all`.
 

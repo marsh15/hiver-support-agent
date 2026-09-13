@@ -3,5 +3,6 @@ __pycache__/
 *.egg-info/
 data/raw/
 data/processed/
+cache/
 .DS_Store
 env.sh

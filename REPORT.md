@@ -1,7 +1,8 @@
 # REPORT — AI Support Agent for Spotify Cares
 
-*Hiver SDE intern take-home. All numbers regenerate via `make eval report`; this
-report cites `results/SUMMARY.md` as its source of truth.*
+*Hiver SDE intern take-home. All numbers regenerate via `make eval report`;
+`results/SUMMARY.md` is the source of truth. Label-verification status at time
+of writing: **human gate pending** — see §6 item 2.*
 
 ## 1. Problem framing
 
@@ -55,87 +56,179 @@ with a stated reason.
 
 ## 3. Results vs baselines
 
-> Auto-filled table: `results/SUMMARY.md` (regenerates with `make report`).
+Golden set: 200 examples, **self-thread holdout at eval time** (each tweet's
+own historical thread is banned from its retrieval — see §6 item 1 for what
+happened without it). Numbers are agreement with the golden labels; the
+mandatory skepticism is in §6.
 
-<!-- RESULTS_TABLE -->
+| metric | trivial | simple | noretr | agent |
+|---|---|---|---|---|
+| Intent accuracy (95% CI) | 0.145 [0.100, 0.195] | 0.835 [0.780, 0.885] | 0.815 [0.760, 0.870] | 0.815 [0.760, 0.870] |
+| Intent macro-F1 (95% CI) | 0.025 [0.018, 0.033] | 0.856 [0.803, 0.897] | 0.834 [0.777, 0.881] | 0.834 [0.777, 0.881] |
+| Escalate precision | 0.430 | 0.423 | 0.760 | **0.778** |
+| Escalate recall | 1.000 | 0.128 | 0.442 | 0.407 |
+| Auto-handle safety (95% CI) | 1.000* | 0.569 [0.494, 0.640] | 0.680 [0.605, 0.756] | 0.671 [0.595, 0.747] |
+| Auto-handle rate | 0.000 | 0.870 | 0.750 | 0.775 |
+| Reply constraint violations | 0 | 0 | 0 | 0 |
+| Judge pass rate (all dims ≥4) | 0.620 | 0.495 | 0.900 | **0.940** |
+| Judge groundedness / actionability / tone | 3.81 / 3.52 / 4.17 | 3.71 / 3.50 / 3.96 | 4.74 / 4.42 / 4.82 | **4.84 / 4.50 / 4.87** |
+
+\* trivial's 1.000 safety is vacuous: it never auto-handles anything.
 
 **Baselines.** *Trivial*: majority-class intent + one canned "please DM us"
 reply + always escalate. *Simple*: TF-IDF logistic regression intent classifier
 + per-intent most-common historical reply + keyword-blacklist escalation.
-*Ablation*: the full agent with retrieval removed — isolates how much the
-grounding retrieval contributes.
+*Ablation* (`noretr`): the full agent with drafting-time retrieval removed — it
+shares the classifier path with the agent, so the agent↔noretr delta isolates
+exactly what grounding retrieval contributes to replies.
 
-**Reading the numbers.**
+**Reading the numbers honestly.**
 
-<!-- RESULTS_READING -->
+- **The simple baseline matches the agent on intent** (0.835 vs 0.815 acc,
+  CIs overlap). I am not going to hide that: the golden labels were *pre-labeled
+  by the same model family* that powers the classifier, and the simple baseline
+  was *trained on labels from that same family* — so this comparison measures
+  agreement with an induced taxonomy, not with human judgment. The human
+  verification gate (§4) is what will make these numbers mean what they claim;
+  until then, intent numbers are provisional for every system equally.
+- **The agent's wins are in reply quality and escalation precision**: judge
+  pass 0.940 vs 0.495 (simple) and 0.620 (trivial), groundedness 4.84 vs 3.71,
+  escalate precision 0.778 vs 0.423. A canned reply cannot resolve anything and
+  a keyword policy escalates wrongly 58% of the time.
+- **Retrieval helps replies, not classification**: agent vs noretr judge pass
+  0.940 vs 0.900, groundedness 4.84 vs 4.74. Modest but consistent, and it is
+  the *right* channel — grounding changes how the reply sounds, not which
+  bucket the tweet falls in.
+- **Auto-handle safety 0.671 is below the 0.95 bar I set in §1.** The honest
+  deployment claim is therefore *draft-assist, not auto-pilot*: the agent
+  drafts and triages, a human confirms send. The escalation failure analysis
+  (§5) says what a week of work would target.
+- Zero reply-constraint violations across 200 drafts: the deterministic
+  post-processor (link/mention/PII strip, ≤280 enforce) does its job — this is
+  the one number I trust unconditionally, because it doesn't depend on labels.
 
 ## 4. Evaluation setup (the proof)
 
 - **Golden set**: 200 examples, stratified by induced intent with ≥8 per intent
-  (min-count intents filled from the remainder) from the 6k-row labeled pool,
-  seed 13. Labels: LLM pre-labels that I then personally verified/corrected
-  tweet-by-tweet against the real thread (`labeling/golden_sheet.html`); the
-  `verified` flag in `data/golden.csv` marks this. Escalation ground truth is
-  my judgment after reading the thread, with the brand's *actual historical
-  behavior* (notably DM-redirect) shown as evidence — not the heuristic's own
-  output.
-- **Labeler self-agreement**: I re-labeled 30 examples blind (shuffled,
-  labels hidden, `labeling/relabel_30.csv`). Agreement + kappa:
-  <!-- SELF_AGREEMENT -->
+  from the 6k-row labeled pool, seed 13. Labels: LLM pre-labels that I then
+  personally verify/correct tweet-by-tweet against the real thread
+  (`labeling/golden_sheet.html`); the `verified` flag in `data/golden.csv`
+  records completion. **Status: sheet generated, human verification in
+  progress — all §3 numbers regenerate with `make eval report` after the gate.**
+- **Labeler self-agreement**: 30 examples re-labeled blind (shuffled, labels
+  hidden, `labeling/relabel_30.csv`), scored by `scripts/self_agreement.py`.
+  **Pending the same gate.**
 - **LLM judge**: `gpt-4.1-mini`, temperature 0, scores groundedness /
   actionability / tone / safety 1–5 (pass = all ≥4). The judge sees the
   playbook and the same exemplar pool the drafter had, so "grounded" is
   checkable, not vibes.
-- **Judge validation**: I hand-scored 50 drafted replies blind on the same
-  rubric (`labeling/judge_sheet.csv`). Judge–human agreement:
-  <!-- JUDGE_AGREEMENT -->
-- **Uncertainty**: every headline number carries a bootstrap 95% CI (2,000
-  resamples, seed 42).
+- **Judge validation**: I hand-score 50 drafted replies blind on the same
+  rubric (`labeling/judge_sheet.csv`) → `scripts/judge_agreement.py` reports
+  exact/within-1 agreement and Cohen's kappa per dimension. **Pending; the
+  sheet is generated.** Two judge behaviors are already visible in the raw
+  outputs and I report them as findings, not excuses: it fails 12 agent drafts
+  *all* on actionability=3 ("no concrete next step"), and it passes the
+  trivial baseline's canned DM-redirect reply 62% of the time — strict on
+  specificity, lenient on fluent empathy.
+- **Uncertainty**: bootstrap 95% CIs (2,000 resamples, seed 42) on every
+  headline number.
 
-## 5. Failure analysis (top 5 modes)
+## 5. Failure analysis (top 5 modes, real examples from the golden run)
 
-<!-- FAILURE_ANALYSIS -->
+1. **Adjacent-intent confusion in the plan/money/how-to triangle** (largest
+   error cluster). "[1989832] our account is 'Free' while there's still money
+   charged" → true billing_charges, predicted subscription_management;
+   "[686630] how can I remove my student status?" → true subscription, pred
+   billing. *Hypothesis*: these tweets genuinely straddle two intents
+   (a billing symptom of a subscription state, asked as a how-to); the
+   induced taxonomy draws the boundary through the middle, and every system
+   — including the labeler that made the golden labels — inherits it.
+2. **Product-feedback tweets have no home.** "[2284417] please optimize your
+   app for the iPhone X 🙏", "[2807661] Really upset that you took out song
+   previews" → true app_technical, predicted feature_howto. *Hypothesis*:
+   "complaint about a product decision" is not in the taxonomy; the classifier
+   distributes these across technical/how-to arbitrarily. A `product_feedback`
+   intent (or explicit routing to feedback CRM) is the fix — I kept the
+   taxonomy at 10 and paid here.
+3. **Account-recovery trouble gets auto-handled** — the scariest failure.
+   "[1931908] trying to reset my password but it keeps saying CSRF token is
+   invalid", "[2630281] I'm locked out of my account so the only way to contact
+   you is through twitter???" → classified account_access (routine), drafted,
+   auto-handled; both were truly-escalate. *Hypothesis*: `always_escalate`
+   covers account_security (hacked) but not account_access (locked out), and
+   the LLM escalation proposal reads well-formed frustration as routine. These
+   two examples alone justify guardrail expansion before any deployment.
+4. **The judge is two-sidedly miscalibrated.** It fails 12/200 agent drafts,
+   every one on actionability ("lacks a concrete next step"), while passing the
+   trivial canned reply 62% of the time — e.g. it rates the canned "please DM
+   us" reply groundedness 3.81. *Hypothesis*: the rubric's 1–5 anchors reward
+   politeness and punish missing specifics; a real human would invert much of
+   that. The human validation sheet exists precisely to quantify this before
+   the judge numbers are trusted.
+5. **Informal venting hides operational severity.** "[1796710] My Spotify keeps
+   randomly switching to some stranger's playlist, wtf?" → true
+   account_security (likely compromise), predicted app_technical, no escalation.
+   *Hypothesis*: security signals phrased as app weirdness ("stranger's
+   playlist") don't match "hacked/scam" lexicons, and the classifier sees
+   playback symptom. A severity-over-intent guardrail (unknown-device /
+   someone-else's-account phrases → escalate) would catch this class.
 
 ## 6. What is misleading about my headline number?
 
 The honest list, most damaging first:
 
-1. **Retrieval leakage.** Golden-set tweets can retrieve their *own* historical
-   thread as an exemplar — the agent may be parroting the labeled answer rather
-   than generalizing. Mitigation reported separately: a leakage-free subset
-   metric excluding near-exact matches (see `results/`), but the headline
-   grounding/judge numbers include leakage.
-2. **My labels are the ground truth — and I built the system.** One annotator,
-   not blind to the system's behavior, with a stake in it looking good. The
-   30-example self-agreement audit bounds *intra*-rater noise, not bias.
-3. **Judge leniency toward fluent text.** The judge shares a model family with
-   the drafter; LLM judges systematically prefer LLM-style prose. My 50-reply
-   validation quantifies agreement, but 50 examples from one human is thin
-   evidence — the kappa CI is wide.
-4. **Escalation ground truth is DM-redirect-tinted.** ~37% of historical first
-   replies redirect to DM; my "should escalate" labels lean on that outcome, so
-   a system that escalates often looks aligned with history even if a better
-   agent would auto-resolve more.
-5. **2017 data, one brand, English-only.** Intent boundaries, response norms
-   and even the product (no audiobooks, no AI DJ) are six years stale; macro-F1
-   is dominated by the `other` bucket's behavior; and every number is a point
-   estimate on n=200 with wide CIs on rare intents.
+1. **I found 100% retrieval leakage in my first headline run — and fixed it
+   mid-project.** In the first eval, every golden tweet retrieved its *own*
+   historical thread as an exemplar (they sit in the index verbatim;
+   similarity 1.0). Intent accuracy was **0.985** with per-class F1s of 1.000 —
+   the agent could parrot the labeled answer for the exact same tweet. The
+   current numbers use a self-thread holdout (own thread banned from that
+   tweet's retrieval) and drop to **0.815**. If a takeaway survives, it's
+   this one: eval leakage made a mediocre classifier look superhuman, and
+   nothing in the pipeline flagged it — I only found it by hunting for it.
+2. **My labels are the ground truth — and I built the system — and at
+   submission time they are still LLM pre-labels awaiting my human gate.** The
+   `verified` flag is off; the pre-labels came from the same model family as
+   the classifier and the simple baseline's training labels. That is why
+   intent numbers are suspiciously high *and* why simple ≈ agent: everything
+   is agreeing with the same taxonomy-inducing model. The golden/judge
+   verification gates convert this into real evidence; until then, treat §3
+   intent numbers as intra-family agreement, not accuracy.
+3. **Escalation ground truth is DM-redirect-tinted.** ~37% of historical first
+   replies redirect to DM and my "should escalate" pre-labels lean on that
+   outcome. So agent escalate-recall 0.407 partly measures *philosophy
+   disagreement* — the agent believes a public reply resolves routine issues
+   that Spotify historically took private — not only misses. Auto-handle
+   safety 0.671 inherits the same tint in the other direction.
+4. **Judge leniency/strictness is systematic (see §5.4).** The 0.940 pass rate
+   overstates quality (it rewards fluent empathy — the canned reply scores
+   3.81 groundedness) while the 12 actionability failures may overstate
+   defects. Human validation of 50 replies is pending; until then the judge
+   numbers rank systems more reliably than they measure quality.
+5. **2017 data, one brand, English-only, n=200.** Intent boundaries and
+   response norms are six years stale (no audiobooks, no AI DJ era);
+   macro-F1 on rare intents rides on ≤8 examples; every CI is wide. And the
+   biggest one: **all of this measures agreement with one annotator who is
+   also the author** — the 30-example blind self-agreement audit bounds
+   intra-rater noise, never bias.
 
 ## 7. With one more week
 
-1. **Second annotator** on the golden set + judge sheet → inter-annotator
-   kappa, and a leakage-controlled eval split (golden tweets' own threads
-   banned from retrieval).
-2. **Threshold tuning on a held-out split** — confidence and guardrail
-   thresholds are currently set by judgment, not by an ROC over a tuning set;
-   I'd sweep them for a target auto-handle safety ≥0.95.
-3. **Multi-turn**: thread-aware triage using the 2-level thread head already
-   captured, with a "context changed the intent" eval slice.
+1. **Finish the human gates and add a second annotator** on the golden set +
+   judge sheet → inter-annotator kappa, making §3 mean what it claims.
+2. **Threshold + guardrail tuning on a held-out split** — sweep the
+   confidence threshold and add severity-over-intent guardrails (account
+   lockout/recovery phrases, unknown-device phrasing) targeting auto-handle
+   safety ≥0.95; ship as draft-assist until then.
+3. **A `product_feedback` intent or CRM route** to give the largest
+   homeless cluster a home (§5.2).
 4. **A distilled cheap classifier** (logreg/MiniLM on the 6k induced labels)
-   as a candidate *replacement* for the LLM classifier — if it matches quality
-   at 100x lower cost, the LLM moves to judge-only.
-5. **Online failure mining**: cluster judge-failed replies by rationale to
-   find the next failure mode systematically instead of by anecdote.
+   — the simple baseline's 0.835 already shows the labels are learnable; if a
+   $0.0001 classifier matches the LLM's 0.815, the LLM moves to judge-only
+   and the cost story collapses 100x.
+5. **Leakage regression test in CI**: assert zero golden ids appear in
+   retrieval results at eval time, so the §6.1 embarrassment can never recur
+   silently.
 
 ## 8. Decision log (the non-obvious calls)
 
@@ -163,8 +256,11 @@ The honest list, most damaging first:
 - **Golden labels = my verification of LLM pre-labels**, disclosed as such:
   pure hand-labeling of 200 tweets was the same hours with worse consistency;
   the honest framing is in §6.
-- **All LLM calls disk-cached and the cache committed**: graders reproduce
-  numbers with zero API spend and zero variance.
+- **Self-thread holdout at eval time** — added after finding 100% retrieval
+  leakage; the pre-fix numbers are preserved in §6.1 as the honesty exhibit.
+- **All LLM calls disk-cached locally, cache gitignored, embedding index
+  committed**: grader eval needs zero embedding spend and ~$3–5 of model spend;
+  re-runs on a worked machine are free and deterministic.
 - **Committed 27,914-thread subsample**: the assignment says a subsample is
   expected; full-data runs stay possible via `make data`.
 - **No LangChain/vector DB**: the pipeline is ~700 lines a reviewer can read in
@@ -172,8 +268,13 @@ The honest list, most damaging first:
 - **Banking77 skipped**: depth over breadth; logged, not hidden.
 - **Bootstrap CIs on everything**: with n=200, a 3-point accuracy gap between
   systems can be noise; CIs force the report to say so.
+- **Reported "simple beats agent on intent" rather than choosing flattering
+  metrics**: the agent's claim to value is reply quality + escalation
+  precision; pretending otherwise would be the first misleading headline.
 
 ## 9. Reproducing
 
 See README quickstart. `make verify` runs the logic checks;
-`make eval report` regenerates every number in §3–4 from the committed cache.
+`make eval report` regenerates every number in §3 from the committed index and
+subsample (fresh key ≈ $3–5, ~15 min). Labeling gates: `data/golden.csv`
+(200), `labeling/relabel_30.csv` (30 blind), `labeling/judge_sheet.csv` (50).

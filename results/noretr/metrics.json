@@ -3,47 +3,47 @@
   "n": 200,
   "golden_verified": false,
   "intent": {
-    "accuracy": 0.985,
-    "macro_f1": 0.9858444571667068,
+    "accuracy": 0.815,
+    "macro_f1": 0.8342521973688827,
     "per_class_f1": {
-      "account_access": 1.0,
-      "account_security": 1.0,
-      "app_technical": 1.0,
-      "billing_charges": 0.9743589743589743,
-      "content_availability": 0.9767441860465116,
-      "device_integration": 1.0,
-      "feature_howto": 0.9508196721311475,
-      "other": 1.0,
-      "praise_feedback": 0.9565217391304348,
-      "subscription_management": 1.0
+      "account_access": 0.875,
+      "account_security": 0.9285714285714286,
+      "app_technical": 0.7796610169491526,
+      "billing_charges": 0.8421052631578947,
+      "content_availability": 0.9047619047619048,
+      "device_integration": 0.9,
+      "feature_howto": 0.7428571428571429,
+      "other": 0.7727272727272727,
+      "praise_feedback": 0.8695652173913043,
+      "subscription_management": 0.7272727272727273
     },
     "accuracy_ci95": [
-      0.965,
-      1.0
+      0.76,
+      0.87
     ],
     "macro_f1_ci95": [
-      0.9677772579218374,
-      1.0
+      0.7765246748500626,
+      0.8811605246487124
     ]
   },
   "escalation": {
-    "escalate_precision": 0.8536585365853658,
-    "escalate_recall": 0.4069767441860465,
-    "escalate_f1": 0.5511811023622047,
-    "auto_handle_safety": 0.6792452830188679,
-    "auto_handle_rate": 0.795,
-    "n_auto_handled": 159,
+    "escalate_precision": 0.76,
+    "escalate_recall": 0.4418604651162791,
+    "escalate_f1": 0.5588235294117647,
+    "auto_handle_safety": 0.68,
+    "auto_handle_rate": 0.75,
+    "n_auto_handled": 150,
     "auto_handle_safety_ci95": [
-      0.6089673913043477,
-      0.7530883731833099
+      0.6052589674824003,
+      0.7564144736842104
     ]
   },
   "reply_constraint_violation_rate": 0.0,
   "judge": {
-    "mean_groundedness": 4.73,
-    "mean_actionability": 4.465,
-    "mean_tone": 4.84,
+    "mean_groundedness": 4.735,
+    "mean_actionability": 4.425,
+    "mean_tone": 4.82,
     "mean_safety": 5.0,
-    "pass_rate": 0.91
+    "pass_rate": 0.9
   }
 }
