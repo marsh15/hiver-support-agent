@@ -1,0 +1,1 @@
+{"response": "{\"groundedness\":3,\"actionability\":2,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply lacks mention of @AskPlayStation, device details, or DM offer; tone is friendly but incomplete; minimal actionable guidance.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 707, "completion_tokens": 55, "cached": false}}

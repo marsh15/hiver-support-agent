@@ -8362,3 +8362,1475 @@
 {"model": "gpt-4.1", "prompt_tokens": 657, "completion_tokens": 67, "cached": false}
 {"model": "gpt-4.1-mini", "prompt_tokens": 243, "completion_tokens": 21, "cached": false}
 {"model": "gpt-4.1-mini", "prompt_tokens": 216, "completion_tokens": 21, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 391, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 390, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 405, "completion_tokens": 56, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 407, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 392, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 225, "completion_tokens": 57, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 382, "completion_tokens": 56, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 424, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 411, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 198, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 430, "completion_tokens": 54, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 465, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 397, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 443, "completion_tokens": 54, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 429, "completion_tokens": 54, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 426, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 382, "completion_tokens": 46, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 422, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 394, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 435, "completion_tokens": 54, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 436, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 447, "completion_tokens": 54, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 427, "completion_tokens": 57, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 447, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 416, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 427, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 449, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 421, "completion_tokens": 55, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 418, "completion_tokens": 54, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 410, "completion_tokens": 56, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 204, "completion_tokens": 59, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 407, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 429, "completion_tokens": 55, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 422, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 375, "completion_tokens": 55, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 385, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 428, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 432, "completion_tokens": 54, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 397, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 416, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 439, "completion_tokens": 55, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 422, "completion_tokens": 57, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 597, "completion_tokens": 70, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 199, "completion_tokens": 26, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 360, "completion_tokens": 35, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 638, "completion_tokens": 77, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 558, "completion_tokens": 59, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 208, "completion_tokens": 26, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 166, "completion_tokens": 22, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 603, "completion_tokens": 57, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 196, "completion_tokens": 22, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 199, "completion_tokens": 25, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 584, "completion_tokens": 44, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 616, "completion_tokens": 73, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 189, "completion_tokens": 21, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 627, "completion_tokens": 74, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 198, "completion_tokens": 27, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 619, "completion_tokens": 62, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 212, "completion_tokens": 24, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 200, "completion_tokens": 26, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 601, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 514, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 176, "completion_tokens": 25, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 530, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 188, "completion_tokens": 26, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 535, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 184, "completion_tokens": 24, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 608, "completion_tokens": 65, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 701, "completion_tokens": 61, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 176, "completion_tokens": 29, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 197, "completion_tokens": 19, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 213, "completion_tokens": 28, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 518, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 639, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 471, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 687, "completion_tokens": 46, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 748, "completion_tokens": 56, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 666, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 679, "completion_tokens": 48, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 710, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 678, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 635, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 692, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 683, "completion_tokens": 54, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 672, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 702, "completion_tokens": 52, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 707, "completion_tokens": 55, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 727, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 746, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 438, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 711, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 644, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 725, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 685, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 654, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 648, "completion_tokens": 56, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 650, "completion_tokens": 46, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 536, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 466, "completion_tokens": 46, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 682, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 678, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 618, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 624, "completion_tokens": 46, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 348, "completion_tokens": 47, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 388, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 669, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 646, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 690, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 652, "completion_tokens": 52, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 655, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 626, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 667, "completion_tokens": 54, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 401, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 679, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 562, "completion_tokens": 52, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 668, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 478, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 674, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 580, "completion_tokens": 50, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 737, "completion_tokens": 48, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 392, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 595, "completion_tokens": 54, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 597, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 573, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 666, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 626, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 485, "completion_tokens": 48, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 699, "completion_tokens": 52, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 674, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 509, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 586, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 662, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 480, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 611, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 690, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 631, "completion_tokens": 48, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 367, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 585, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 686, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 635, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 659, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 664, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 701, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 730, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 468, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 748, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 634, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 697, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 704, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 695, "completion_tokens": 48, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 692, "completion_tokens": 55, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 662, "completion_tokens": 52, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 761, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 650, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 425, "completion_tokens": 46, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 714, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 368, "completion_tokens": 45, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 650, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 711, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 648, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 454, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 645, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 748, "completion_tokens": 52, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 708, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 666, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 641, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 635, "completion_tokens": 52, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 637, "completion_tokens": 48, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 609, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 714, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 607, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 659, "completion_tokens": 47, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 435, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 528, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 709, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 664, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 582, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 654, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 745, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 670, "completion_tokens": 52, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 683, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 751, "completion_tokens": 55, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 649, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 476, "completion_tokens": 47, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 703, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 621, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 653, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 708, "completion_tokens": 54, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 660, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 670, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 690, "completion_tokens": 48, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 716, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 708, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 625, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 679, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 680, "completion_tokens": 50, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 678, "completion_tokens": 46, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 653, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 692, "completion_tokens": 48, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 712, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 691, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 715, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 650, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 642, "completion_tokens": 50, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 688, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 634, "completion_tokens": 45, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 700, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 656, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 463, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 651, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 674, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 590, "completion_tokens": 50, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 657, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 653, "completion_tokens": 46, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 386, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 703, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 765, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 313, "completion_tokens": 46, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 720, "completion_tokens": 50, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 412, "completion_tokens": 50, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 629, "completion_tokens": 54, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 666, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 624, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 634, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 615, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 630, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 401, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 670, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 685, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 686, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 621, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 603, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 536, "completion_tokens": 48, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 719, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 673, "completion_tokens": 52, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 653, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 652, "completion_tokens": 54, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 724, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 639, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 742, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 572, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 685, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 622, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 621, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 722, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 602, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 677, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 741, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 686, "completion_tokens": 47, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 628, "completion_tokens": 50, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 690, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 599, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 661, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 687, "completion_tokens": 51, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 697, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 736, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 729, "completion_tokens": 56, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 678, "completion_tokens": 48, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 722, "completion_tokens": 53, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 637, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 401, "completion_tokens": 47, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 700, "completion_tokens": 50, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 713, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 670, "completion_tokens": 56, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 690, "completion_tokens": 49, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 647, "completion_tokens": 56, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 670, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 580, "completion_tokens": 52, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 598, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 757, "completion_tokens": 49, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 600, "completion_tokens": 48, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 691, "completion_tokens": 51, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}

@@ -42,7 +42,9 @@ def judge_all(preds: pd.DataFrame, index) -> list[dict]:
     playbooks = draft_mod.load_playbooks()
 
     def one(row):
-        exemplars = index.retrieve_one(row.text, 4) if index is not None else []
+        # holdout: never judge grounding against the tweet's own historical thread
+        exemplars = (index.retrieve_one(row.text, 4, {row.root_tweet_id})
+                     if index is not None else [])
         playbook = playbooks.get(row.intent, {}).get("playbook", "")
         return judge_mod.judge(row.text, row.reply, row.intent, playbook, exemplars)
 
@@ -57,8 +59,13 @@ def main():
     golden = pd.read_csv(ROOT / "data/golden.csv")
     system = get_system(args.system)
 
+    # self-thread holdout: the tweet's own historical thread is banned from its
+    # retrieval at eval time (it would otherwise match verbatim, similarity 1.0)
     with ThreadPoolExecutor(8) as ex:
-        outs = list(ex.map(system.handle, golden.text.tolist()))
+        outs = list(ex.map(
+            lambda i: system.handle(golden.text[i],
+                                    exclude_ids={int(golden.root_tweet_id[i])}),
+            range(len(golden))))
     preds = golden[["root_tweet_id", "text", "intent", "escalate"]].copy()
     preds["intent_pred"] = [o["intent"] for o in outs]
     preds["confidence"] = [o.get("confidence", "") for o in outs]

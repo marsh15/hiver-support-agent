@@ -14,7 +14,7 @@ class TrivialAgent:
     def fit(self, corpus_labels: list[str]):
         self.intent = max(set(corpus_labels), key=corpus_labels.count)
 
-    def handle(self, text: str) -> dict:
+    def handle(self, text: str, exclude_ids: set | None = None) -> dict:
         return {"intent": self.intent, "confidence": "n/a", "neighbor_agreement": 0.0,
                 "reply": self.reply, "grounding_thread_ids": [],
                 "reply_violations": [], "escalate": True,
@@ -38,7 +38,7 @@ class SimpleAgent:
             by_intent.setdefault(lab, []).append(rep)
         self.templates = {lab: max(set(reps), key=reps.count) for lab, reps in by_intent.items()}
 
-    def handle(self, text: str) -> dict:
+    def handle(self, text: str, exclude_ids: set | None = None) -> dict:
         import numpy as np
 
         X = self.vec.transform([text])

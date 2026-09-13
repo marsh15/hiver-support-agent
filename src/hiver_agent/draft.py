@@ -50,11 +50,12 @@ def clean(reply: str) -> str:
 
 
 def draft(text: str, intent: str, index, llm: LLM | None = None,
-          use_retrieval: bool = True) -> dict:
+          use_retrieval: bool = True, exclude_ids: set | None = None) -> dict:
     llm = llm or LLM(CFG["models"]["strong"], CFG["temperature"]["draft"])
     playbooks = load_playbooks()
     playbook = playbooks.get(intent, {}).get("playbook", "(no playbook — use generic empathetic triage and ask for details)")
-    exemplars = index.retrieve_one(text, CFG["retrieval"]["k_draft_exemplars"]) if use_retrieval else []
+    exemplars = (index.retrieve_one(text, CFG["retrieval"]["k_draft_exemplars"], exclude_ids)
+                 if use_retrieval else [])
     shots = "\n".join(
         f"[thread {e['root_tweet_id']}]\ncustomer: {e['text'][:180]}\nspotify replied: {e['brand_reply'][:280]}"
         for e in exemplars

@@ -19,11 +19,12 @@ Answer with JSON: {"intent": "<name>", "confidence": "high|medium|low", "reason"
 Use "other" only when nothing fits. Confidence low = ambiguous, multi-issue, or sarcasm."""
 
 
-def classify(text: str, index, llm: LLM | None = None) -> dict:
+def classify(text: str, index, llm: LLM | None = None,
+             exclude_ids: set | None = None) -> dict:
     llm = llm or LLM(CFG["models"]["bulk"], CFG["temperature"]["classify"])
     intents = load_intents()
     defs = "\n".join(f"- {n}: {i['definition']}" for n, i in intents.items())
-    neighbors = index.retrieve_one(text, CFG["retrieval"]["k_neighbors"])
+    neighbors = index.retrieve_one(text, CFG["retrieval"]["k_neighbors"], exclude_ids)
     shots = "\n".join(
         f"[{n['intent']}] {n['text'][:180]}" for n in neighbors
     )

@@ -9,9 +9,10 @@ class Agent:
         self.index = Index()
         self.use_retrieval = use_retrieval
 
-    def handle(self, text: str) -> dict:
-        cls = classify.classify(text, self.index)
-        dr = draft.draft(text, cls["intent"], self.index, use_retrieval=self.use_retrieval)
+    def handle(self, text: str, exclude_ids: set | None = None) -> dict:
+        cls = classify.classify(text, self.index, exclude_ids=exclude_ids)
+        dr = draft.draft(text, cls["intent"], self.index,
+                         use_retrieval=self.use_retrieval, exclude_ids=exclude_ids)
         esc = escalate.decide(text, cls["intent"], cls.get("confidence", "medium"), dr["reply"])
         return {
             "text": text,
