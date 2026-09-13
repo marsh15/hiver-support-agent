@@ -141,6 +141,12 @@ exactly what grounding retrieval contributes to replies.
 
 ## 5. Failure analysis (top 5 modes, real examples from the golden run)
 
+*Also observed in live use (found by the author testing the console, not by the
+eval): the deterministic link-stripper can leave dangling phrases — a drafter
+output of "check out <help-center link>" becomes "check out for next steps"
+after URL removal. The safety constraint holds; the grammar pays. A
+sentence-completion repair pass is on the §7 list.*
+
 1. **Adjacent-intent confusion in the plan/money/how-to triangle** (largest
    error cluster). "[1989832] our account is 'Free' while there's still money
    charged" → true billing_charges, predicted subscription_management;
@@ -235,6 +241,9 @@ The honest list, most damaging first:
 5. **Leakage regression test in CI**: assert zero golden ids appear in
    retrieval results at eval time, so the §6.1 embarrassment can never recur
    silently.
+6. **Grammar repair after constraint enforcement** — rewrite or drop dangling
+   phrases left by the link/mention stripper (see §5 observation) instead of
+   shipping "check out for next steps".
 
 ## 8. Decision log (the non-obvious calls)
 

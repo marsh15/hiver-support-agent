@@ -12222,3 +12222,8 @@
 {"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
 {"model": "gpt-4.1", "prompt_tokens": 552, "completion_tokens": 57, "cached": false}
 {"model": "gpt-4.1-mini", "prompt_tokens": 180, "completion_tokens": 20, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 644, "completion_tokens": 28, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 610, "completion_tokens": 87, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 192, "completion_tokens": 21, "cached": false}
