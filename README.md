@@ -75,12 +75,13 @@ report). Intent: accuracy + macro-F1 + confusion. Escalation: escalate-class
 P/R/F1 plus **auto-handle safety** — of the messages we auto-handled, the
 fraction where auto-handling was actually right (the "can you trust it" metric).
 Reply quality: an LLM judge (gpt-4.1-mini) scores groundedness / actionability /
-tone / safety 1–5, validated against the author's own blind hand-scoring of 50
-replies (`labeling/judge_sheet.csv` → `results/judge_agreement.json`). All
-headline numbers carry bootstrap 95% CIs. Baselines: **trivial** (majority class
-+ canned reply + always escalate), **simple** (TF-IDF logreg + per-intent
-historical boilerplate + keyword escalation), and a **no-retrieval ablation**
-(proves grounding matters).
+tone / safety 1–5; its validation against the author's hand-scoring of 50
+replies is set up (`labeling/judge_sheet.csv`) and — like the golden-label
+human gate — is openly marked as pending in REPORT.md §4/§6. All headline
+numbers carry bootstrap 95% CIs. Baselines: **trivial** (majority class, canned
+reply, always escalate), **simple** (TF-IDF logreg, per-intent historical
+boilerplate, keyword escalation), and a **no-retrieval ablation** (proves
+grounding matters).
 
 ## Citations
 
