@@ -132,6 +132,12 @@ exactly what grounding retrieval contributes to replies.
   specificity, lenient on fluent empathy.
 - **Uncertainty**: bootstrap 95% CIs (2,000 resamples, seed 42) on every
   headline number.
+- **Reproducibility check**: a fresh-clone simulation (clone → `make setup` →
+  `make eval report` with a warm LLM cache) reproduced all results in ~3.5 min;
+  the agent's numbers were identical, with one nuance disclosed: query
+  embeddings are not cached, so the *simple* baseline's judge scores moved by
+  ≤0.17 on three dimensions between runs (near-tie exemplar sets reshuffle).
+  Intent and escalation metrics are bit-stable.
 
 ## 5. Failure analysis (top 5 modes, real examples from the golden run)
 

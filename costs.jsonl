@@ -12197,3 +12197,13 @@
 {"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
 {"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
 {"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 592, "completion_tokens": 23, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 539, "completion_tokens": 53, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 169, "completion_tokens": 22, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 612, "completion_tokens": 26, "cached": false}
+{"model": "text-embedding-3-small", "prompt_tokens": 4, "cached": false}
+{"model": "gpt-4.1", "prompt_tokens": 564, "completion_tokens": 82, "cached": false}
+{"model": "gpt-4.1-mini", "prompt_tokens": 189, "completion_tokens": 24, "cached": false}
