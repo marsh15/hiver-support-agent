@@ -1,0 +1,89 @@
+# Intent taxonomy for Spotify Cares inbound tweets.
+# Seed taxonomy authored from EDA of 27.9k threads; refine via
+# `make taxonomy` (LLM induction over a 2k sample) then hand-consolidate.
+intents:
+  - name: account_access
+    definition: >
+      Routine trouble getting into the account — login failing, password/username
+      reset, can't remember email, logged out unexpectedly. No suspicion of intrusion.
+    examples:
+      - "ive forgotten my login details i cant remember my email only my username can you help"
+      - "why can i not log into my spotify premium account on my roku player"
+      - "keeps logging me out every time i close the app"
+
+  - name: billing_charges
+    definition: >
+      Money problems — charged twice, charged after cancelling, unexpected amounts,
+      payment failed, refund demands, student/family discount pricing disputes.
+    examples:
+      - "yall charged my account 8 times uhhh"
+      - "i got charged twice and my account still hasnt been updated to premium what should i do"
+      - "hello i was wondering why i am being charged twice for my music every month"
+
+  - name: subscription_management
+    definition: >
+      Plan/subscription lifecycle — upgrading or cancelling, premium not activating,
+      family or dual-plan invites not working, managing members, trials.
+    examples:
+      - "trying to add account in the premium family account but when i click add takes me to wrong webpage"
+      - "ive been trying to set up my dads account to our family plan for an hour how do i do it the invite link isnt working"
+      - "my account changed from premium to free why i have nothing changed in my connection"
+
+  - name: app_technical
+    definition: >
+      The app or software misbehaving — crashes, freezes, songs skipping or not
+      playing, sync problems, offline mode issues, UI bugs.
+    examples:
+      - "why is it so hard to connect my phone and my computer"
+      - "app crashes every time i open my playlist"
+      - "songs keep stopping halfway through"
+
+  - name: content_availability
+    definition: >
+      Music/catalog issues — songs or albums missing or greyed out, asking for
+      music to be added to a region, artists asking about uploads/verification.
+    examples:
+      - "can you put wrapped around your finger and if you dont know me on spotify in america im dying"
+      - "is it possible to have the bbc live version of harry styles girl crush on spotify"
+      - "hi hello can you add all got7 albums thank you"
+
+  - name: device_integration
+    definition: >
+      Connecting spotify to hardware or external services — speakers, Roku, cars,
+      TVs, smart watches, Spotify Connect pairing problems.
+    examples:
+      - "spotify wont show up on my roku anymore"
+      - "cant get spotify to play in my car through bluetooth"
+      - "how do i link spotify to my sonos"
+
+  - name: feature_howto
+    definition: >
+      How-do-I questions and feature requests about using spotify — queue, local
+      files, playlists sorting, wrapped, settings, missing features.
+    examples:
+      - "why cant u have make a queue on spotify if ur on a laptop thats so dumb"
+      - "love the time capsule but itd be nice if i could sort it by artist to find songs easier"
+      - "how do i download songs for offline listening"
+
+  - name: account_security
+    definition: >
+      Suspected compromise or fraud — account hacked, unknown devices using the
+      account, "songs playing via" strange apps, unauthorized access, scam emails.
+    examples:
+      - "ive been getting notifications that songs are playing via spotiamb 021 seems like a hack could you please advise"
+      - "someone changed my email on my account i think i got hacked"
+    always_escalate: true
+
+  - name: praise_feedback
+    definition: >
+      Compliments, thanks, general feedback, excitement about features like wrapped
+      — no problem to solve.
+    examples:
+      - "just discovered release radar and its perfect thank you"
+      - "loving the new desktop update"
+
+  - name: other
+    definition: >
+      Anything that fits none of the above — ambiguous, off-topic, or unclear.
+    examples:
+      - "hey 125633 i just submitted my verification for my artist page just lettingting you all know"

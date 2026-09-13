@@ -17,15 +17,11 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from hiver_agent.config import ROOT
+from hiver_agent.text import DM_RE, find_root, strip_mention
 
 BRAND = "SpotifyCares"
 RAW = ROOT / "data/raw/twcs/twcs.csv"
-DM_RE = re.compile(r"\b(dms?|direct messages?)\b", re.I)
 HEAD_LEN = 6
-
-
-def strip_mention(t: str) -> str:
-    return re.sub(r"^@\w+\s+", "", str(t)).strip()
 
 
 def thread_head(root_id: int, root_text: str, reply: str, kids, by_id) -> str:
@@ -41,18 +37,6 @@ def thread_head(root_id: int, root_text: str, reply: str, kids, by_id) -> str:
         who = "customer" if bool(row.inbound) else "spotify"
         head.append(f"{who}: {strip_mention(row.text)[:200]}")
     return "\n".join(head)
-
-
-def find_root(tid: int, parent: dict, root_of: dict) -> int:
-    chain = []
-    cur = tid
-    while cur not in root_of and cur in parent:
-        chain.append(cur)
-        cur = int(parent[cur])
-    r = root_of.get(cur, cur)
-    for t in chain:
-        root_of[t] = r
-    return r
 
 
 def thread_records() -> pd.DataFrame:
