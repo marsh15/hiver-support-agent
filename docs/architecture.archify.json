@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "hiver-support-agent \u2014 Spotify Cares triage pipeline",
+    "output": "docs/architecture.html",
+    "quality_profile": "showcase",
+    "viewBox": [
+      1240,
+      660
+    ]
+  },
+  "components": [
+    {
+      "id": "tweet",
+      "type": "external",
+      "label": "Customer tweet",
+      "sublabel": "first inbound message",
+      "pos": [
+        40,
+        300
+      ],
+      "size": [
+        140,
+        64
+      ]
+    },
+    {
+      "id": "classify",
+      "type": "backend",
+      "label": "Classifier",
+      "sublabel": "few-shot LLM + 8 neighbors",
+      "pos": [
+        260,
+        300
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "tag": "gpt-4.1-mini"
+    },
+    {
+      "id": "draft",
+      "type": "backend",
+      "label": "Drafter",
+      "sublabel": "playbook + 4 exemplars",
+      "pos": [
+        490,
+        300
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "tag": "gpt-4.1"
+    },
+    {
+      "id": "guard",
+      "type": "security",
+      "label": "Escalation guard",
+      "sublabel": "LLM proposal + hard rules",
+      "pos": [
+        720,
+        300
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "auto",
+      "type": "external",
+      "label": "Auto-handle",
+      "sublabel": "public reply",
+      "pos": [
+        950,
+        170
+      ],
+      "size": [
+        140,
+        60
+      ]
+    },
+    {
+      "id": "human",
+      "type": "external",
+      "label": "Human agent",
+      "sublabel": "escalate + reason",
+      "pos": [
+        950,
+        430
+      ],
+      "size": [
+        140,
+        60
+      ]
+    },
+    {
+      "id": "index",
+      "type": "database",
+      "label": "Retrieval index",
+      "sublabel": "6k labeled (msg, reply) pairs",
+      "pos": [
+        300,
+        450
+      ],
+      "size": [
+        170,
+        64
+      ]
+    },
+    {
+      "id": "playbooks",
+      "type": "database",
+      "label": "Playbooks",
+      "sublabel": "distilled per intent",
+      "pos": [
+        540,
+        450
+      ],
+      "size": [
+        150,
+        60
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "cloud",
+      "label": "OpenAI API",
+      "sublabel": "4.1 / 4.1-mini / embeddings",
+      "pos": [
+        260,
+        110
+      ],
+      "size": [
+        170,
+        60
+      ]
+    },
+    {
+      "id": "cache",
+      "type": "database",
+      "label": "Disk cache",
+      "sublabel": "every call cached",
+      "pos": [
+        40,
+        110
+      ],
+      "size": [
+        140,
+        60
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "backend",
+      "label": "Eval harness",
+      "sublabel": "metrics + LLM judge + CIs",
+      "pos": [
+        760,
+        555
+      ],
+      "size": [
+        170,
+        64
+      ]
+    },
+    {
+      "id": "golden",
+      "type": "database",
+      "label": "Golden set",
+      "sublabel": "200 hand-verified labels",
+      "pos": [
+        1000,
+        555
+      ],
+      "size": [
+        160,
+        64
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "hiver-support-agent (Python, no frameworks)",
+      "wraps": [
+        "classify",
+        "draft",
+        "guard",
+        "index",
+        "playbooks",
+        "cache",
+        "eval",
+        "golden"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "tweet-to-classify",
+      "from": "tweet",
+      "to": "classify",
+      "label": "text"
+    },
+    {
+      "id": "classify-to-draft",
+      "from": "classify",
+      "to": "draft",
+      "label": "intent"
+    },
+    {
+      "id": "draft-to-guard",
+      "from": "draft",
+      "to": "guard",
+      "label": "drafted reply"
+    },
+    {
+      "id": "guard-to-auto",
+      "from": "guard",
+      "to": "auto",
+      "label": "safe",
+      "fromSide": "top",
+      "toSide": "left"
+    },
+    {
+      "id": "guard-to-human",
+      "from": "guard",
+      "to": "human",
+      "label": "escalate + reason",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "left"
+    },
+    {
+      "id": "index-to-classify",
+      "from": "index",
+      "to": "classify",
+      "label": "8 labeled neighbors",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "index-to-draft",
+      "from": "index",
+      "to": "draft",
+      "label": "4 exemplars",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "labelDx": 60
+    },
+    {
+      "id": "playbooks-to-draft",
+      "from": "playbooks",
+      "to": "draft",
+      "label": "playbook",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "classify-to-llm",
+      "from": "classify",
+      "to": "llm",
+      "label": "classify call",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "draft-to-llm",
+      "from": "draft",
+      "to": "llm",
+      "label": "draft call",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "labelDx": 70
+    },
+    {
+      "id": "cache-to-llm",
+      "from": "cache",
+      "to": "llm",
+      "label": "reads / writes",
+      "variant": "dashed"
+    },
+    {
+      "id": "golden-to-eval",
+      "from": "golden",
+      "to": "eval",
+      "label": "labels",
+      "variant": "dashed"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Pipeline",
+      "items": [
+        "One message in: classify \u2192 draft \u2192 escalate",
+        "Guardrails can only force escalation, never suppress it"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Grounding",
+      "items": [
+        "Retrieval over 6k real (msg, reply) pairs",
+        "Per-intent playbooks distilled from history",
+        "Replies cite the threads they borrowed from"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Proof",
+      "items": [
+        "200 hand-verified golden labels",
+        "LLM judge validated against human scores",
+        "Every call disk-cached: re-runs are free"
+      ]
+    }
+  ]
+}
