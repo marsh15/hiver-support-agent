@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"complaint about subscription and audio device not working together\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 413, "completion_tokens": 29, "cached": false}}

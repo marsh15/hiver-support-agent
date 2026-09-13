@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Polite, general response suitable for vague inquiry.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 165, "completion_tokens": 22, "cached": false}}

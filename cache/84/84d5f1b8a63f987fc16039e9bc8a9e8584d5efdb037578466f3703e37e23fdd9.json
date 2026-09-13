@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"medium\", \"reason\": \"Issue relates to Spotify on PS4 device\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 399, "completion_tokens": 27, "cached": false}}

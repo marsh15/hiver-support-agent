@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"account_security\", \"confidence\": \"high\", \"reason\": \"Explicit mention of hacking and unauthorized playlist creation\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 610, "completion_tokens": 26, "cached": false}}

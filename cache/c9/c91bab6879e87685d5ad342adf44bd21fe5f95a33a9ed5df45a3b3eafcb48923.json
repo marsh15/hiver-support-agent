@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"User confused about music suggestion feature behavior\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 425, "completion_tokens": 27, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Student subscription Hulu access issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 414, "completion_tokens": 23, "cached": false}}

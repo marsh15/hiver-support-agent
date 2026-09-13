@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"User reports Spotify crashing PC, indicating app technical issues.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 393, "completion_tokens": 30, "cached": false}}

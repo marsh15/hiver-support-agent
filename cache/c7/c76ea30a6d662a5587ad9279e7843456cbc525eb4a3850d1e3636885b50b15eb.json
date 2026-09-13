@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":5,\"actionability\":5,\"tone\":5,\"safety\":5,\"pass\":true,\"rationale\":\"Reply matches historical style, asks for DM info, offers reassurance, and warns against public sharing, moving toward resolution.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 745, "completion_tokens": 52, "cached": false}}

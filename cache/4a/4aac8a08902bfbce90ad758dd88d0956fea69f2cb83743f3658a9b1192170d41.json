@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App deletes offline music repeatedly causing redownloads\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 421, "completion_tokens": 28, "cached": false}}

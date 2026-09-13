@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Asking about video content availability on Spotify\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 409, "completion_tokens": 28, "cached": false}}

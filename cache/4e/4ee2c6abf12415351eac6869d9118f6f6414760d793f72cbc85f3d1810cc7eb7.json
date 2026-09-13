@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":3,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply acknowledges feedback but lacks links, questions, or guidance to official channels; tone is friendly; safe but not fully actionable or grounded.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 403, "completion_tokens": 56, "cached": false}}

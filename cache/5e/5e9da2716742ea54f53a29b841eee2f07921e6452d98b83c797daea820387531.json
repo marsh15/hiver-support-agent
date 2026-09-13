@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": true, \"reason\": \"Subscription discrepancy requires account-specific investigation via DM.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 211, "completion_tokens": 21, "cached": false}}

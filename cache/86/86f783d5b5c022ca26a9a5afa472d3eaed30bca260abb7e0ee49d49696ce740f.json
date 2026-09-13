@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"high\", \"reason\": \"Question about payment info and unexpected charge after card change\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 432, "completion_tokens": 29, "cached": false}}

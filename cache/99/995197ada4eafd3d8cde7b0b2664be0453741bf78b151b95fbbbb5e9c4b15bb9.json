@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Reply addresses the username concern and offers helpful info.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 202, "completion_tokens": 22, "cached": false}}

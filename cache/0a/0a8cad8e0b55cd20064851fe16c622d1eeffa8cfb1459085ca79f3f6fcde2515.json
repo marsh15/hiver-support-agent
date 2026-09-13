@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": true, \"reason\": \"Account security breach requires human intervention to verify identity and resolve.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 200, "completion_tokens": 24, "cached": false}}

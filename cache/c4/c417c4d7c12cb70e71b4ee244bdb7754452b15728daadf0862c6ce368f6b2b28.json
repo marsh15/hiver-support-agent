@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":3,\"actionability\":3,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is safe but lacks feature request guidance and appreciation; doesn't ask for details or link to community pages.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 383, "completion_tokens": 50, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"medium\", \"reason\": \"User reports Spotify not working, likely app or service issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 396, "completion_tokens": 30, "cached": false}}

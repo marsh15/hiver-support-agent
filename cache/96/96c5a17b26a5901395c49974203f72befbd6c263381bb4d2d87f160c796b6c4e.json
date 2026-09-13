@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Bug in app notification about saved song status\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 416, "completion_tokens": 27, "cached": false}}

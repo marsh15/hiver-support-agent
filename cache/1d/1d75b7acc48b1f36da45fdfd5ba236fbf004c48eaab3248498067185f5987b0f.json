@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"account_access\", \"confidence\": \"high\", \"reason\": \"Trouble accessing artist account, repeated failed support responses.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 420, "completion_tokens": 29, "cached": false}}

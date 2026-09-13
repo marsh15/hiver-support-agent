@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Routine billing inquiry; DM requested for account verification and assistance.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 184, "completion_tokens": 24, "cached": false}}

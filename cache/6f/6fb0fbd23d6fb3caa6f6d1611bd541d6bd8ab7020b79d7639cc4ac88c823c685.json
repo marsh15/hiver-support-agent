@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Songs not playing despite reinstall and cache clearing\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 418, "completion_tokens": 27, "cached": false}}

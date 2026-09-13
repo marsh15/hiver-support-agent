@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"medium\", \"reason\": \"Issue relates to family plan upgrade and adding member, with access error\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 439, "completion_tokens": 31, "cached": false}}

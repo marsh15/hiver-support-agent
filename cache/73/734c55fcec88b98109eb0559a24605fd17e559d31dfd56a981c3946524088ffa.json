@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"high\", \"reason\": \"Request about educational outreach, not fitting defined intents\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 413, "completion_tokens": 26, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"high\", \"reason\": \"Just sharing a playlist, no support issue or question\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 699, "completion_tokens": 27, "cached": false}}

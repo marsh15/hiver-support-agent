@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"medium\", \"reason\": \"complains about data overage charges from streaming instead of downloaded songs\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 457, "completion_tokens": 32, "cached": false}}

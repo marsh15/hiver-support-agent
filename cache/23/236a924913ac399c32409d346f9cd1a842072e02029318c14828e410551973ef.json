@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"Car system not playing tracks after update, BT connection okay\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 424, "completion_tokens": 30, "cached": false}}

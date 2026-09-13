@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"high\", \"reason\": \"Complaint about spam unrelated to Spotify issues\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 402, "completion_tokens": 24, "cached": false}}

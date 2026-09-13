@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Profile picture not updating on app but updated on website\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 414, "completion_tokens": 29, "cached": false}}

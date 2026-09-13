@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"Songs unavailable on multiple devices\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 406, "completion_tokens": 24, "cached": false}}

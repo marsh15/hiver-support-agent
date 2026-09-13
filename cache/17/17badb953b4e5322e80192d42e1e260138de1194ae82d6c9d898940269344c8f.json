@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"high\", \"reason\": \"Promotional event info, no support issue or question\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 428, "completion_tokens": 27, "cached": false}}

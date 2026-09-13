@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Request to bring back a search feature (cmd+f)\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 402, "completion_tokens": 32, "cached": false}}

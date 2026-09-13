@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Error message and failure to recover playlist indicate app/software issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 442, "completion_tokens": 31, "cached": false}}

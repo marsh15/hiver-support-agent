@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Hulu bundle issue unclear, no direct Spotify intent\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 412, "completion_tokens": 27, "cached": false}}

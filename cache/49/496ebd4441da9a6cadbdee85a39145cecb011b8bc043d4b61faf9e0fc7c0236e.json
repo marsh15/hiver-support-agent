@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App error on Dell, works on iPhone, playback issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 423, "completion_tokens": 31, "cached": false}}

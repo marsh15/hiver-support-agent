@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"high\", \"reason\": \"Complains about repeated charges after one-time payment\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 405, "completion_tokens": 28, "cached": false}}

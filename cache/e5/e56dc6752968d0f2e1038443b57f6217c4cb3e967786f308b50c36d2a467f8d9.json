@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"User asks how to subscribe to a promo offer\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 445, "completion_tokens": 27, "cached": false}}

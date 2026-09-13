@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"high\", \"reason\": \"Multiple refund requests indicate billing or charge issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 416, "completion_tokens": 28, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":2,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is polite but doesn't reference content issues or provide helpful links, less aligned with historical responses.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 463, "completion_tokens": 48, "cached": false}}

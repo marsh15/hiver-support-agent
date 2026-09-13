@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Complains about pause fade feature causing annoyance\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 417, "completion_tokens": 27, "cached": false}}

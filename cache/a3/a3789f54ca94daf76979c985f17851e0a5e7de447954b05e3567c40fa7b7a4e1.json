@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Requesting details to troubleshoot a technical issue is appropriate for auto-reply.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 255, "completion_tokens": 27, "cached": false}}

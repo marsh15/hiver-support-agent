@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"User asks how to disable a specific app feature on Mac OS.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 419, "completion_tokens": 33, "cached": false}}

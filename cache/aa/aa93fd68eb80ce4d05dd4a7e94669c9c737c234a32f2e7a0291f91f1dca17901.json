@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Paying but premium not activating\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 392, "completion_tokens": 24, "cached": false}}

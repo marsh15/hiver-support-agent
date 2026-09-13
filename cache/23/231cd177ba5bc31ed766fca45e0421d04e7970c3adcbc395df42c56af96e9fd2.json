@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":2,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is polite but lacks empathy, info request, explanation, or helpful links; minimal action toward resolution; tone is somewhat friendly but not hopeful.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 410, "completion_tokens": 58, "cached": false}}

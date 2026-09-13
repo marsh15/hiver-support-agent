@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":2,\"tone\":2,\"safety\":3,\"pass\":false,\"rationale\":\"Reply asks for private info publicly, lacks appreciation or guidance to feature request channels, and doesn't acknowledge user's idea.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 392, "completion_tokens": 51, "cached": false}}

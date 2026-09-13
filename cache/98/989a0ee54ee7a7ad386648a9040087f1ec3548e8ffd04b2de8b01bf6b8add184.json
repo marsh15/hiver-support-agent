@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"medium\", \"reason\": \"Complaint about Discover Weekly issue, unclear specific problem\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 398, "completion_tokens": 26, "cached": false}}

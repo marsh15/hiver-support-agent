@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"Mentions service unavailability in certain countries, possible regional restriction.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 450, "completion_tokens": 32, "cached": false}}

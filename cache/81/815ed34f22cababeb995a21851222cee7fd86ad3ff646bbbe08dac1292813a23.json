@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"User wants to change subscription plan from monthly to yearly.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 419, "completion_tokens": 29, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":2,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply lacks acknowledgment of user's observation, doesn't ask for details, offers no official links for feedback, and is vague about feature availability.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 410, "completion_tokens": 55, "cached": false}}

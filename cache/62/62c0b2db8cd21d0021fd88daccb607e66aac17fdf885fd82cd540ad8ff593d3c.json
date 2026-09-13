@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"Requesting specific live version of a song on Spotify\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 413, "completion_tokens": 29, "cached": false}}

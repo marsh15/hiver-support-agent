@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App won't open on desktop after update and reinstall.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 434, "completion_tokens": 29, "cached": false}}

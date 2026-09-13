@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"medium\", \"reason\": \"Request for app availability on Apple Watch device\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 420, "completion_tokens": 27, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Upgrading to Premium Family plan but facing server issues\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 403, "completion_tokens": 28, "cached": false}}

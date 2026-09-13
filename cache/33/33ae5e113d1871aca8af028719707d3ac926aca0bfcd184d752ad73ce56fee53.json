@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"medium\", \"reason\": \"Question about paying for premium subscription\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 393, "completion_tokens": 24, "cached": false}}

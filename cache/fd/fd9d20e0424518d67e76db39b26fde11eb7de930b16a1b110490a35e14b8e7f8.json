@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"account_access\", \"confidence\": \"medium\", \"reason\": \"Mentions account access issues and password problems, but also cancellation intent\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 424, "completion_tokens": 31, "cached": false}}

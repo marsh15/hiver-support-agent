@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"Complaint about playlist quality or content issues\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 393, "completion_tokens": 26, "cached": false}}

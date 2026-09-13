@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"low\", \"reason\": \"Request for explanation is vague and incomplete\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 392, "completion_tokens": 27, "cached": false}}

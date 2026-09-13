@@ -1,1 +1,0 @@
-{"response": "{\"reply\": \"Hey there! Can you let us know what device, Android, and Spotify version you're running? We'll see what we can suggest /LM\", \"grounding_thread_ids\": [1748235]}", "usage": {"model": "gpt-4.1", "prompt_tokens": 651, "completion_tokens": 43, "cached": false}}

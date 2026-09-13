@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Describes app freezing and unresponsiveness on Windows multi-monitor setup.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 433, "completion_tokens": 33, "cached": false}}

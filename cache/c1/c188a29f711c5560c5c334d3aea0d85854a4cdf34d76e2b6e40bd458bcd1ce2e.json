@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"User asks about changing a setting, unclear what @135616 means\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 399, "completion_tokens": 33, "cached": false}}

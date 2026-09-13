@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Requesting private info to verify and resolve billing issue is appropriate for auto-reply.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 211, "completion_tokens": 29, "cached": false}}

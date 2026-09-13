@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":3,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is friendly but doesn't follow historical pattern of confirming DM sent and directing conversation there.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 385, "completion_tokens": 46, "cached": false}}

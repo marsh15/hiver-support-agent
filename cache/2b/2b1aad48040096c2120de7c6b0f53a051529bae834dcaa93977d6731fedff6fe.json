@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"high\", \"reason\": \"Refund request after subscription cancellation and renewal charge\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 409, "completion_tokens": 27, "cached": false}}

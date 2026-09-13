@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Routine interaction, no issue or request needing human intervention.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 207, "completion_tokens": 23, "cached": false}}

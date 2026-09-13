@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"medium\", \"reason\": \"Request about student payment method for premium subscription\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 395, "completion_tokens": 27, "cached": false}}

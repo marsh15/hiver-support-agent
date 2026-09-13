@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":4,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Friendly and safe, but lacks guidance on collaborative playlists and asks for DM without initial troubleshooting steps or links.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 432, "completion_tokens": 50, "cached": false}}

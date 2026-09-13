@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"medium\", \"reason\": \"Discrepancy in pricing offer between devices suggests billing issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 416, "completion_tokens": 32, "cached": false}}

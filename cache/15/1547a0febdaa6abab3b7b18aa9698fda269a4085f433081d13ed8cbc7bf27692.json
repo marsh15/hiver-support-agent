@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"Songs missing from playlist, user upset about missing content\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 421, "completion_tokens": 29, "cached": false}}

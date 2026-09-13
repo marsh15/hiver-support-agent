@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App logs out and requires redownloading songs after phone dies\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 428, "completion_tokens": 31, "cached": false}}

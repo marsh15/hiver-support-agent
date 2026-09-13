@@ -1,1 +1,0 @@
-{"response": "{\"reply\": \"Hey there! Could you let us know what device and operating system you're using? We'll take a closer look and see what we can suggest.\", \"grounding_thread_ids\": [1961534, 1941891]}", "usage": {"model": "gpt-4.1", "prompt_tokens": 430, "completion_tokens": 48, "cached": false}}

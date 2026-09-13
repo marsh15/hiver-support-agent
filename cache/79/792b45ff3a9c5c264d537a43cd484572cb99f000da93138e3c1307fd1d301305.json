@@ -1,1 +1,0 @@
-{"response": "{\"reply\": \"Hey there, help's here! Could you share your friend's device model, iOS version, and Spotify app version? We'll check out what's going on and suggest some steps to help /CH\", \"grounding_thread_ids\": [2369709, 1242923, 1546102]}", "usage": {"model": "gpt-4.1", "prompt_tokens": 654, "completion_tokens": 64, "cached": false}}

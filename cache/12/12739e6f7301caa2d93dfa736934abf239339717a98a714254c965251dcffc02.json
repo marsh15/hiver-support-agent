@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Question about reapplying student discount without canceling subscription\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 616, "completion_tokens": 29, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"Issue with Spotify Connect and Sonos streaming only\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 431, "completion_tokens": 28, "cached": false}}

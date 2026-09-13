@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"account_security\", \"confidence\": \"high\", \"reason\": \"Unauthorized access to artist account indicates security concern\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 413, "completion_tokens": 26, "cached": false}}

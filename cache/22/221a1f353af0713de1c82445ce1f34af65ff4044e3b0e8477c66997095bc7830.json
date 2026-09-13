@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"high\", \"reason\": \"Tweet is a shared article link, no support intent\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 435, "completion_tokens": 27, "cached": false}}

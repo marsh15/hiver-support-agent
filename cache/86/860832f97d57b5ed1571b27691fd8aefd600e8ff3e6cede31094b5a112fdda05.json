@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"Rude feedback without specific issue mentioned\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 512, "completion_tokens": 24, "cached": false}}

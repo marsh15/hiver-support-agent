@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"No issue described, just asking for ETA on an unspecified problem\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 408, "completion_tokens": 29, "cached": false}}

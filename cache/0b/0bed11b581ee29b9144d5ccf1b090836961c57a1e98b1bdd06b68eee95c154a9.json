@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": true, \"reason\": \"Billing dispute with money at stake requires human review.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 206, "completion_tokens": 22, "cached": false}}

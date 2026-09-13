@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"medium\", \"reason\": \"Fixing Spotify app on Windows 7 Lenovo ThinkPad PC\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 416, "completion_tokens": 31, "cached": false}}

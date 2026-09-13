@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"medium\", \"reason\": \"Request to access Spotify via Apple control center suggests device integration issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 405, "completion_tokens": 32, "cached": false}}

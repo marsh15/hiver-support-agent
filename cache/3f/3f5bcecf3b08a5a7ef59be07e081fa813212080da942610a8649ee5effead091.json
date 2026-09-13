@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":2,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply lacks empathy, does not request needed details, offers no explanation or resources, but is safe and neutral in tone.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 433, "completion_tokens": 53, "cached": false}}

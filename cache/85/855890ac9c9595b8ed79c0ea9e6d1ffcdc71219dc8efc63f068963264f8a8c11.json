@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":3,\"actionability\":2,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is friendly but vague, offers no clear next steps, and lacks specific guidance or resolution.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 210, "completion_tokens": 48, "cached": false}}

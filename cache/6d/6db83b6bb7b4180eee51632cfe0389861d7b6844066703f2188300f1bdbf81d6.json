@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Streaming and downloaded content playback issues reported\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 426, "completion_tokens": 26, "cached": false}}

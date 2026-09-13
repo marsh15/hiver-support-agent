@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"medium\", \"reason\": \"Issue relates to Hulu, not directly Spotify account or service\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 397, "completion_tokens": 28, "cached": false}}

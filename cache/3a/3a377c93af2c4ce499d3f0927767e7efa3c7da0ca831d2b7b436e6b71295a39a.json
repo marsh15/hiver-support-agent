@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":5,\"actionability\":5,\"tone\":5,\"safety\":5,\"pass\":true,\"rationale\":\"Reply is empathetic, asks for DM to verify, assures investigation, and maintains privacy per playbook.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 388, "completion_tokens": 50, "cached": false}}

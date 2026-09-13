@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"medium\", \"reason\": \"Issue with promo registration relates to subscription or plan management.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 397, "completion_tokens": 29, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Requesting user info to secure account; routine security issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 206, "completion_tokens": 24, "cached": false}}

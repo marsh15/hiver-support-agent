@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Request for username to assist with account access is routine and safe to auto-reply.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 176, "completion_tokens": 29, "cached": false}}

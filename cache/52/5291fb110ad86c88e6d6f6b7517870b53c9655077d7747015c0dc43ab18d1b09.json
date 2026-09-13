@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":3,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply acknowledges issue and escalates but lacks specific guidance or info; tone is friendly; no safety issues.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 236, "completion_tokens": 50, "cached": false}}

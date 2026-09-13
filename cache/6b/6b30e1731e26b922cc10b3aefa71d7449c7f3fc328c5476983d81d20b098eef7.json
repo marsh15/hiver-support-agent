@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Reply confirms issue and invites feedback, suitable for feature inquiry.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 184, "completion_tokens": 24, "cached": false}}

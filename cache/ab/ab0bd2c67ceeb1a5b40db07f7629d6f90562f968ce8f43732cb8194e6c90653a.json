@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"User asks about premium subscription status\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 639, "completion_tokens": 24, "cached": false}}

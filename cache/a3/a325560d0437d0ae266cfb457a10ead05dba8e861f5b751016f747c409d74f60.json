@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"low\", \"reason\": \"complaint about ad volume, not fitting defined intents\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 422, "completion_tokens": 27, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"medium\", \"reason\": \"Unclear if app issue or feature request about update timing\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 597, "completion_tokens": 28, "cached": false}}

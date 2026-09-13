@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"high\", \"reason\": \"Asking how to gift a subscription, a feature-related question.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 411, "completion_tokens": 33, "cached": false}}

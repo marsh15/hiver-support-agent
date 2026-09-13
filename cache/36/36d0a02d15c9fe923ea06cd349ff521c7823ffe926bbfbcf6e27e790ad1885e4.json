@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"Complains premium not available in their country\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 424, "completion_tokens": 27, "cached": false}}

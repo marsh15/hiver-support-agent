@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":2,\"tone\":2,\"safety\":5,\"pass\":false,\"rationale\":\"Reply ignores praise, asks for DM unnecessarily, lacks warmth and appreciation, not aligned with praise feedback playbook.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 358, "completion_tokens": 51, "cached": false}}

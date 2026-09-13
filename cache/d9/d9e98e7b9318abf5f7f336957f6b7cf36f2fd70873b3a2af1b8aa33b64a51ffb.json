@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"Linking Spotify with Hulu is device/service integration issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 405, "completion_tokens": 30, "cached": false}}

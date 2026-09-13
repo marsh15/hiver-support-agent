@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"content_availability\", \"confidence\": \"high\", \"reason\": \"Asking about Spotify availability in India\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 391, "completion_tokens": 26, "cached": false}}

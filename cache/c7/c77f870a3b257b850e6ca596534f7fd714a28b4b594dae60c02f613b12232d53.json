@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":4,\"actionability\":4,\"tone\":5,\"safety\":5,\"pass\":true,\"rationale\":\"Reply asks for device info, invites DM for account details, offers help, and uses friendly tone consistent with Spotify's style.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 655, "completion_tokens": 54, "cached": false}}

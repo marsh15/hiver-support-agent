@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Request for explicit song skip feature, expressed with frustration.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 412, "completion_tokens": 31, "cached": false}}

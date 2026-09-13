@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":1,\"actionability\":1,\"tone\":2,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is vague, off-topic, lacks troubleshooting or info requests, and doesn't invite DM; tone is not fully friendly or empathetic.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 446, "completion_tokens": 56, "cached": false}}

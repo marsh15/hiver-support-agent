@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply doesn't follow historical pattern of confirming DM reply; asks for info publicly instead of moving to DM.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 332, "completion_tokens": 49, "cached": false}}

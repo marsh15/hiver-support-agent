@@ -1,1 +1,0 @@
-{"response": "{\"reply\": \"Hi there! Thanks for reaching out. Can you let us know if you're using the Spotify app directly on your Android TV or connecting from another device? This helps us guide you better! /DV\", \"grounding_thread_ids\": [2412675]}", "usage": {"model": "gpt-4.1", "prompt_tokens": 560, "completion_tokens": 55, "cached": false}}

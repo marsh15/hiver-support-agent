@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"medium\", \"reason\": \"Asking about app update for iPhone X suggests technical issue or compatibility\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 395, "completion_tokens": 33, "cached": false}}

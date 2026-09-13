@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":4,\"actionability\":4,\"tone\":4,\"safety\":5,\"pass\":true,\"rationale\":\"Asks device info, OS, app version; friendly tone; no PII requested publicly; invites further help; aligns with playbook.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 427, "completion_tokens": 57, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"content_availability\", \"confidence\": \"medium\", \"reason\": \"Discusses artist and album listing discrepancies\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 440, "completion_tokens": 26, "cached": false}}

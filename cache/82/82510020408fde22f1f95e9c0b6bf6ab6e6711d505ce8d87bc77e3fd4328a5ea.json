@@ -1,1 +1,0 @@
-{"response": "{\"reply\": \"Hey there, we're here to help! Could you share a bit more about what's going on so we can assist you better? /TB\", \"grounding_thread_ids\": [704770]}", "usage": {"model": "gpt-4.1", "prompt_tokens": 444, "completion_tokens": 42, "cached": false}}

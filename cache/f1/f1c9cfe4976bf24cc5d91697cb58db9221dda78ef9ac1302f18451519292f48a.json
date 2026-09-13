@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"medium\", \"reason\": \"Issues with local devices and offline playlists relate to device integration\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 395, "completion_tokens": 30, "cached": false}}

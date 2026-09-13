@@ -1,1 +1,0 @@
-{"response": "{\"reply\": \"Hey! Sorry to hear you're having trouble making a payment\u2014we're here to help. Could you please DM us your account email or username? We'll check things out for you and get back to you privately.\", \"grounding_thread_ids\": []}", "usage": {"model": "gpt-4.1", "prompt_tokens": 321, "completion_tokens": 53, "cached": false}}

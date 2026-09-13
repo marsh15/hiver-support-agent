@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Shuffle feature not working on iPhone app\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 698, "completion_tokens": 27, "cached": false}}

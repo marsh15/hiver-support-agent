@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Requesting account info to check subscription is routine and safe to auto-reply.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 178, "completion_tokens": 28, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App buttons unresponsive despite reinstalling on iOS\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 428, "completion_tokens": 29, "cached": false}}

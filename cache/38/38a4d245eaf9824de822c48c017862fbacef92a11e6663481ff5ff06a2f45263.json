@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"medium\", \"reason\": \"Lost card affects payment, likely billing issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 647, "completion_tokens": 27, "cached": false}}

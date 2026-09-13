@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"medium\", \"reason\": \"Issue with student plan setup involving Hulu and Spotify\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 412, "completion_tokens": 27, "cached": false}}

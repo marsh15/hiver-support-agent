@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"account_access\", \"confidence\": \"medium\", \"reason\": \"Username issue on new account, related to account access settings\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 435, "completion_tokens": 29, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"account_security\", \"confidence\": \"medium\", \"reason\": \"Requesting 2FA implies security concern, but no direct compromise mentioned.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 409, "completion_tokens": 33, "cached": false}}

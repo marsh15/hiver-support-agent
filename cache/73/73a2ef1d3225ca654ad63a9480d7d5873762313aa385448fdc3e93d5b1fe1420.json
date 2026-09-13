@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"Issues connecting Spotify to Alpine Headunit device\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 423, "completion_tokens": 27, "cached": false}}

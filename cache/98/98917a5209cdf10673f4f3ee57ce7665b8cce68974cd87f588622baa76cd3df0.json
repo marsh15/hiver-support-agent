@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"account_security\", \"confidence\": \"high\", \"reason\": \"Message indicates unauthorized account use despite logout attempts.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 663, "completion_tokens": 27, "cached": false}}

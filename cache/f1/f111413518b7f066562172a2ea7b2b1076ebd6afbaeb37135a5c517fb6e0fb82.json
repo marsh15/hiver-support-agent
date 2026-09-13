@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": true, \"reason\": \"Account access issue with payment info; requires human verification and support.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 234, "completion_tokens": 25, "cached": false}}

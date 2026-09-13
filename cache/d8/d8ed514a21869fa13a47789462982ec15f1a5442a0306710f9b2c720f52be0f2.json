@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":2,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply lacks troubleshooting steps, device info requests, or DM invitation; tone is somewhat friendly but not empathetic or helpful enough.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 447, "completion_tokens": 54, "cached": false}}

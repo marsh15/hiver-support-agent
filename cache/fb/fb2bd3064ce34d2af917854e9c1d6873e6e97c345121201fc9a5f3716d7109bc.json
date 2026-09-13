@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Removing account from family plan issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 430, "completion_tokens": 24, "cached": false}}

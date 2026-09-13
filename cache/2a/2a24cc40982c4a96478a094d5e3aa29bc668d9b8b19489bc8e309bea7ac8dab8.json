@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"praise_feedback\", \"confidence\": \"medium\", \"reason\": \"Expresses annoyance but ends with success for premium purchase\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 405, "completion_tokens": 29, "cached": false}}

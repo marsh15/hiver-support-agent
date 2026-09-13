@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":2,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply lacks appreciation, feature request guidance, and asks for DM without clear need; tone is somewhat friendly but not fully aligned.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 420, "completion_tokens": 54, "cached": false}}

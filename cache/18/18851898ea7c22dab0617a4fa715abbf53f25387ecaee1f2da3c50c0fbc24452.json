@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"medium\", \"reason\": \"Issues with simultaneous use on multiple devices in family plan\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 444, "completion_tokens": 29, "cached": false}}

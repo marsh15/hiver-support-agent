@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Installation issue due to software library version mismatch\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 449, "completion_tokens": 27, "cached": false}}

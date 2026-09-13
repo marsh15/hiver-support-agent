@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"medium\", \"reason\": \"Request to fix and release a proper app indicates technical issue\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 427, "completion_tokens": 30, "cached": false}}

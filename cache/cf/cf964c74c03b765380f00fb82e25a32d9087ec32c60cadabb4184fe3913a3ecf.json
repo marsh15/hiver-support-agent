@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":3,\"actionability\":2,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Friendly and safe, but lacks info on feature or links, and doesn't ask for more details or guide to official channels.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 419, "completion_tokens": 53, "cached": false}}

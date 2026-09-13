@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":3, \"actionability\":3, \"tone\":4, \"safety\":5, \"pass\":false, \"rationale\":\"Reply is polite and safe but lacks specific info or clear next steps, and no historical exemplars for grounding.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 217, "completion_tokens": 56, "cached": false}}

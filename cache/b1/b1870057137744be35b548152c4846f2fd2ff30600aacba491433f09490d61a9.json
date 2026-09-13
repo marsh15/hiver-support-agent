@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":5,\"actionability\":4,\"tone\":5,\"safety\":5,\"pass\":true,\"rationale\":\"Reply invites DM for private help, aligns with tone, and avoids public sensitive info; could improve by explicitly requesting email/username.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 377, "completion_tokens": 55, "cached": false}}

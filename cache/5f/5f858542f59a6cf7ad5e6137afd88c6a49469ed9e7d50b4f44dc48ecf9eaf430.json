@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"User reports audible glitches in songs on Spotify app.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 620, "completion_tokens": 29, "cached": false}}

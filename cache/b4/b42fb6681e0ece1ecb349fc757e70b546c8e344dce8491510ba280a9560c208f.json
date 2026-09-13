@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"high\", \"reason\": \"Feedback about ad targeting, not fitting other categories\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 636, "completion_tokens": 26, "cached": false}}

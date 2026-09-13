@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Reply addresses content availability and explains licensing constraints.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 191, "completion_tokens": 21, "cached": false}}

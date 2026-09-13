@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":5,\"actionability\":4,\"tone\":5,\"safety\":5,\"pass\":true,\"rationale\":\"Reply thanks user, acknowledges feedback, offers to pass it on, and directs to Community page, matching historical responses and tone.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 749, "completion_tokens": 54, "cached": false}}

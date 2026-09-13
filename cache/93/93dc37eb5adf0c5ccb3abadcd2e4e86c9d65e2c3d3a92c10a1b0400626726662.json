@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"subscription_management\", \"confidence\": \"high\", \"reason\": \"Subscription upgrade works on one device but not another\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 436, "completion_tokens": 27, "cached": false}}

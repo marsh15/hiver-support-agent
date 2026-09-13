@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Routine subscription issue; agent can assist via DM to update student status and payment details.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 203, "completion_tokens": 29, "cached": false}}

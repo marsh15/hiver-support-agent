@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":4,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is friendly and safe but doesn't address the user's question about playlist pitches, limiting actionability.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 395, "completion_tokens": 48, "cached": false}}

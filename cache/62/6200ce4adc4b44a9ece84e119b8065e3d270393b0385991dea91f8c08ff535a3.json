@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": true, \"reason\": \"Billing dispute with potential unauthorized charges requires human review.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 184, "completion_tokens": 22, "cached": false}}

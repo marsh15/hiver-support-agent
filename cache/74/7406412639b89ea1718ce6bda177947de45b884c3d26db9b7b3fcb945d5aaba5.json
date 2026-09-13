@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App not working despite reboot and reinstall on iPhone8 iOS11.1.2\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 792, "completion_tokens": 37, "cached": false}}

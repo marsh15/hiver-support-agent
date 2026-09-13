@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": true, \"reason\": \"Potential unauthorized charge; requires secure handling and verification by a human agent.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 196, "completion_tokens": 26, "cached": false}}

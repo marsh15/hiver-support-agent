@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App plays music on phone but not laptop, indicating software issue.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 426, "completion_tokens": 32, "cached": false}}

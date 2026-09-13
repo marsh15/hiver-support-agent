@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":3,\"actionability\":2,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is safe and friendly but lacks info on family plan usage and doesn't guide user to official resources or ask clarifying questions.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 393, "completion_tokens": 54, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"praise_feedback\", \"confidence\": \"low\", \"reason\": \"Thanks but sarcastic about inappropriate song in playlist\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 443, "completion_tokens": 28, "cached": false}}

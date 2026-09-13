@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Routine password reset issue; requesting info via DM is appropriate and safe.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 199, "completion_tokens": 26, "cached": false}}

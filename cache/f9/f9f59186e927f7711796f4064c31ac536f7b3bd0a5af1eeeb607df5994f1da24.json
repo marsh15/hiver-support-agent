@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Offline mode update causing usability issues\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 441, "completion_tokens": 25, "cached": false}}

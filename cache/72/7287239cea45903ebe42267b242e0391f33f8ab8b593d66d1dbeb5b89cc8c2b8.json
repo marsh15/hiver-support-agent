@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"billing_charges\", \"confidence\": \"high\", \"reason\": \"Payment failed updating card info, bank not at fault\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 422, "completion_tokens": 29, "cached": false}}

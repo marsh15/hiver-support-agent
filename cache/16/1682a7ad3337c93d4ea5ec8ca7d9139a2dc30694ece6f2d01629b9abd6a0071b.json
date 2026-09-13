@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":4,\"actionability\":4,\"tone\":4,\"safety\":5,\"pass\":true,\"rationale\":\"Reply asks for device info and OS, is friendly and concise, avoids PII requests publicly, and moves toward troubleshooting.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 410, "completion_tokens": 53, "cached": false}}

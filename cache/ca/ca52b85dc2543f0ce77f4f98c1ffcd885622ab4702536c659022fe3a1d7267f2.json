@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": true, \"reason\": \"Long unresolved issue requires human intervention for effective resolution.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 198, "completion_tokens": 22, "cached": false}}

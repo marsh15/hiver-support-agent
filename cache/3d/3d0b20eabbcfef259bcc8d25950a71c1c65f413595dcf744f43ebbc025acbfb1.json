@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"account_security\", \"confidence\": \"medium\", \"reason\": \"Mentions tech support scammers exploiting platform SEO\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 422, "completion_tokens": 26, "cached": false}}

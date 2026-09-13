@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Request for help with registration; reply offers direct assistance appropriately.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 186, "completion_tokens": 24, "cached": false}}

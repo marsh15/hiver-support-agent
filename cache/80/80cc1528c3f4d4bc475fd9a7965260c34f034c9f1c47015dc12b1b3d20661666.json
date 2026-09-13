@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":1,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply doesn't acknowledge DM request or guide customer; tone is somewhat friendly but not fully helpful or actionable.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 211, "completion_tokens": 49, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Request for device info to assist with feature use; routine support inquiry.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 183, "completion_tokens": 26, "cached": false}}

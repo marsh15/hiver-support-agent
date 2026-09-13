@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"App not updated for iPhone X causing car interface issues\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 718, "completion_tokens": 30, "cached": false}}

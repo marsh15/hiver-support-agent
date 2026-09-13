@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"device_integration\", \"confidence\": \"high\", \"reason\": \"Issues with app on Roku device mentioned explicitly.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 578, "completion_tokens": 28, "cached": false}}

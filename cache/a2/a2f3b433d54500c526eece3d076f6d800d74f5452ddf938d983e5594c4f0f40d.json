@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"App redirects incorrectly from album to Local Files\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 440, "completion_tokens": 27, "cached": false}}

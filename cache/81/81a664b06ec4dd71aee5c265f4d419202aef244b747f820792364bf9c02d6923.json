@@ -1,1 +1,0 @@
-{"response": "{\"escalate\": false, \"reason\": \"Request is routine; agent can assist with account verification via DM safely.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 199, "completion_tokens": 26, "cached": false}}

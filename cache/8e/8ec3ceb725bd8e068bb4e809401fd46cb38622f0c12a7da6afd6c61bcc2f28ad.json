@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2,\"actionability\":2,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply lacks acknowledgment, no request for DM or account info, minimal assistance offered, tone is neutral not fully friendly/helpful.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 376, "completion_tokens": 54, "cached": false}}

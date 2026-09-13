@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":3,\"actionability\":2,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is friendly but lacks info on content availability, no request for details or helpful links, and doesn't guide toward resolution.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 406, "completion_tokens": 53, "cached": false}}

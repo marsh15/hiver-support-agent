@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":2, \"actionability\":2, \"tone\":4, \"safety\":5, \"pass\":false, \"rationale\":\"Reply is polite but vague, lacks specific guidance or assurance, and doesn't align with typical Spotify support responses.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 223, "completion_tokens": 55, "cached": false}}

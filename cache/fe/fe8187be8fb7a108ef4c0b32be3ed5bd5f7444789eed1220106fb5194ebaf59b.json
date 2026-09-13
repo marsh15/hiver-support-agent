@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"praise_feedback\", \"confidence\": \"high\", \"reason\": \"Expresses love, a form of positive feedback or compliment.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 391, "completion_tokens": 31, "cached": false}}

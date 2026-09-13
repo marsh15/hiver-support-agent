@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":3,\"actionability\":3,\"tone\":3,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is safe but lacks feature request guidance, appreciation, and links; asks for DM without clarifying need for private info or offering workaround.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 377, "completion_tokens": 57, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"other\", \"confidence\": \"high\", \"reason\": \"Complaint about content curation, not fitting defined intents\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 441, "completion_tokens": 27, "cached": false}}

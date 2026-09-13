@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"User reports app bugs and requests update for Windows Mobile app.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 713, "completion_tokens": 31, "cached": false}}

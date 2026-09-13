@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"praise_feedback\", \"confidence\": \"high\", \"reason\": \"Positive statement promoting student premium plan\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 416, "completion_tokens": 25, "cached": false}}

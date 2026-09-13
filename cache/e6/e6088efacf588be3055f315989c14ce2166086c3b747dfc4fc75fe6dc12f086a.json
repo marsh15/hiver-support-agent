@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":4,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is empathetic and positive but lacks a link for updates and a prompt to sign up, reducing actionability.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 665, "completion_tokens": 52, "cached": false}}

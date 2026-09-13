@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":5,\"actionability\":5,\"tone\":5,\"safety\":5,\"pass\":true,\"rationale\":\"Reply matches historical tone, asks for DM with account info, offers help backstage, and maintains privacy.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 648, "completion_tokens": 49, "cached": false}}

@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"app_technical\", \"confidence\": \"high\", \"reason\": \"Reports app lag and search loading issues despite troubleshooting.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 648, "completion_tokens": 29, "cached": false}}

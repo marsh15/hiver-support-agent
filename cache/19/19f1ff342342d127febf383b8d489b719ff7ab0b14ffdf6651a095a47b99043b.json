@@ -1,1 +1,0 @@
-{"response": "{\"groundedness\":4,\"actionability\":3,\"tone\":4,\"safety\":5,\"pass\":false,\"rationale\":\"Reply is friendly and acknowledges feedback but lacks direct link to official idea page and explicit voting invitation, reducing actionability.\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 710, "completion_tokens": 52, "cached": false}}

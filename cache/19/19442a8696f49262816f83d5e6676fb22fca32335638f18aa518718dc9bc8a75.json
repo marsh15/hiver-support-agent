@@ -1,1 +1,0 @@
-{"response": "{\"intent\": \"feature_howto\", \"confidence\": \"medium\", \"reason\": \"Request for higher quality album artwork feature\"}", "usage": {"model": "gpt-4.1-mini", "prompt_tokens": 436, "completion_tokens": 27, "cached": false}}
