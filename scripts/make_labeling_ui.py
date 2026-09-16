@@ -78,7 +78,8 @@ function render(){
   sel.value = s.intent || r.pre_intent;
   document.getElementById("esc_true").className = s.escalate === "true" ? "on" : "";
   document.getElementById("esc_false").className = s.escalate === "false" ? "on" : "";
-  document.getElementById("pre").textContent = "pre-label: " + r.pre_intent + " / " + r.pre_escalate;
+  document.getElementById("pre").textContent = r.pre_intent !== undefined
+    ? "pre-label: " + r.pre_intent + " / " + r.pre_escalate : "(blind — no pre-label shown)";
 }
 """
 
