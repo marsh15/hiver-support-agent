@@ -286,14 +286,12 @@ The honest list, most damaging first:
   the honest framing is in §6.
 - **Self-thread holdout at eval time** — added after finding 100% retrieval
   leakage; the pre-fix numbers are preserved in §6.1 as the honesty exhibit.
-- **All LLM calls disk-cached locally, cache gitignored, embedding index
-  committed**: grader eval needs zero embedding spend and ~$3–5 of model spend;
-  re-runs on a worked machine are free and deterministic.
-- **Committed 27,914-thread subsample**: the assignment says a subsample is
-  expected; full-data runs stay possible via `make data`.
-- **No LangChain/vector DB**: the pipeline is ~700 lines a reviewer can read in
-  the live interview; numpy cosine is enough at this scale.
-- **Banking77 skipped**: depth over breadth; logged, not hidden.
+- **Reproducibility engineering** — committed 27,914-thread subsample and
+  embedding index; every LLM call disk-cached locally: a grader's eval needs no
+  Kaggle, no embedding spend, and ~$3–5 of model spend.
+- **Scope minimalism** — no LangChain/vector DB (a ~700-line pipeline a
+  reviewer can read live; numpy cosine suffices at this scale) and Banking77
+  skipped (depth over breadth; logged, not hidden).
 - **Bootstrap CIs on everything**: with n=200, a 3-point accuracy gap between
   systems can be noise; CIs force the report to say so.
 - **Reported "simple beats agent on intent" rather than choosing flattering

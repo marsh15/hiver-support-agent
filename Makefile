@@ -35,6 +35,9 @@ agreement:  ## self-agreement + judge-vs-human agreement (needs human sheets fil
 	$(PY) scripts/self_agreement.py
 	$(PY) scripts/judge_agreement.py
 
+labeling-ui:  ## regenerate the browser editors for the two human gates
+	$(PY) scripts/make_labeling_ui.py
+
 all: labels index playbooks golden eval report  ## full pipeline from committed subsample
 
 verify:  ## logic checks + complexity gate

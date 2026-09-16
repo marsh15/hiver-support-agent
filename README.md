@@ -84,6 +84,22 @@ reply, always escalate), **simple** (TF-IDF logreg, per-intent historical
 boilerplate, keyword escalation), and a **no-retrieval ablation** (proves
 grounding matters).
 
+## Human labeling gates (the author's own judgment — kept out of automation)
+
+Two of the report's claims need *my* human judgment, and the tooling makes
+those sessions click-through:
+
+```bash
+open labeling/golden_editor.html   # verify/correct 200 golden labels → golden_corrected.csv
+open labeling/judge_editor.html    # blind-score 50 replies on the rubric  → judge_sheet_filled.csv
+```
+
+Progress auto-saves in the browser; the Download button exports the exact CSV
+format. Then: replace `data/golden.csv` (set `verified=true`), fill
+`labeling/relabel_30.csv` (30 blind re-labels), move the filled judge sheet
+over `labeling/judge_sheet.csv`, and run `make agreement` for the kappa
+numbers. Current status and why this matters: REPORT.md §4 and §6.
+
 ## Citations
 
 - Dataset: Scott Godwin (thoughtvector), *Customer Support on Twitter*, Kaggle.
