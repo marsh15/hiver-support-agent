@@ -217,7 +217,25 @@ def build_judge():
     return len(data)
 
 
+def build_relabel():
+    """Blind self-agreement editor: no pre-labels shown, no golden peeking."""
+    r30 = pd.read_csv(ROOT / "labeling/relabel_30.csv")
+    r30 = r30.head(30)
+    intents = list(load_intents())
+    data = [{"id": int(r.root_tweet_id), "text": r.text, "thread": r.thread_head}
+            for r in r30.itertuples()]
+    opts = "".join(f'<option value="{n}">{n}</option>' for n in intents)
+    body = GOLDEN_BODY.replace("__INTENT_OPTIONS__", opts)
+    html = page("Blind relabel (30) — self-agreement audit", body, JS_RENDER_INTENT,
+                data, "relabel_gate", "relabel_30_filled.csv",
+                ["id", "intent", "escalate"],
+                "(s.intent !== undefined && s.escalate !== undefined)")
+    (ROOT / "labeling/relabel_editor.html").write_text(html)
+    return len(data)
+
+
 if __name__ == "__main__":
     print(f"labeling/golden_editor.html: {build_golden()} rows")
     print(f"labeling/judge_editor.html: {build_judge()} rows")
+    print(f"labeling/relabel_editor.html: {build_relabel()} rows (blind)")
     print("open in a browser; label; Download CSV; follow README gate instructions")
